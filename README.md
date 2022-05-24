@@ -21,7 +21,7 @@
 ## Tes Running
 
 - Ketikkan ini jika ingin melihan form login : http://localhost:8080/login
-  !["Jonheri API Tes Presentation"](https://github.com/joniheri/ci4.1.9-testapi-withcomposer/tree/masterscreenshot/form_login.png "API Tes Presentation")
+  !["JonheriAPITes Presentation"](https://github.com/joniheri/ci4.1.9-testapi-withcomposer/blob/master/screenshot/form_login.png "JonheriAPITes Presentation")
 
 # DOCUMENTASION BY JON HERI
 
