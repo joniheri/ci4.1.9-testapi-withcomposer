@@ -23,7 +23,7 @@
 - Ketikkan ini jika ingin melihan form login : http://localhost:8080/login
   !["JonheriAPITes Presentation"](https://github.com/joniheri/ci4.1.9-testapi-withcomposer/blob/master/screenshot/form_login.png "JonheriAPITes Presentation")
 
-- Ketikkan ini jika ingin melihan form register : http://localhost:8080/login
+- Ketikkan ini jika ingin melihan form register : http://localhost:8080/register
   !["JonheriAPITes Presentation"](https://github.com/joniheri/ci4.1.9-testapi-withcomposer/blob/master/screenshot/form_register.png "JonheriAPITes Presentation")
 
 # DOCUMENTASION BY JON HERI
