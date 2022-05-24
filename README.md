@@ -1,7 +1,16 @@
-- This is CodeIgniter versi 4.1.9
+# MAKE RESTful API USING CODEIGNITER 4
+
+## Tes Running
+
+- Ketikkan ini jika ingin melihan form login : http://localhost:8080/login
+  !["JonheriAPITes Presentation"](https://github.com/joniheri/ci4.1.9-testapi-withcomposer/blob/master/screenshot/form_login.png "JonheriAPITes Presentation")
+
+- Ketikkan ini jika ingin melihan form register : http://localhost:8080/register
+  !["JonheriAPITes Presentation"](https://github.com/joniheri/ci4.1.9-testapi-withcomposer/blob/master/screenshot/form_register.png "JonheriAPITes Presentation")
 
 ## How To Installation Using Composer
 
+- This is CodeIgniter versi 4.1.9
 - Pastikan Composer sudah terinstall
 - Disini develop menggunakan PHP Versi 8.1 atau bisa menggunakan XAMPP Versi 8
 - Untuk menginstall CodeIgniter versi 4.1.9 ini menggunakan Composer, dengan cara mengetikkan di terminal "composer create-project codeigniter4/appstarter name-project --no-dev"
@@ -17,14 +26,6 @@
 - Video tutorial : https://www.youtube.com/watch?v=vKFcpQo-h-Q&t=43s
 - File yang ditambahkan untuk cek "validasi input" ada di directory ./app/Helpers/Form_helper.php
 - File yang ditambahkan untuk "hash password" ada di directory ./app/Libraries/Hash.php
-
-## Tes Running
-
-- Ketikkan ini jika ingin melihan form login : http://localhost:8080/login
-  !["JonheriAPITes Presentation"](https://github.com/joniheri/ci4.1.9-testapi-withcomposer/blob/master/screenshot/form_login.png "JonheriAPITes Presentation")
-
-- Ketikkan ini jika ingin melihan form register : http://localhost:8080/register
-  !["JonheriAPITes Presentation"](https://github.com/joniheri/ci4.1.9-testapi-withcomposer/blob/master/screenshot/form_register.png "JonheriAPITes Presentation")
 
 # DOCUMENTASION BY JON HERI
 
