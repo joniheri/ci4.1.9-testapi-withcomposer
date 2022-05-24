@@ -1,7 +1,3 @@
-!["AdminLTE Presentation"](https://adminlte.io/AdminLTE3.png "AdminLTE Presentation")
-
-# DOCUMENTASION BY JON HERI
-
 - This is CodeIgniter versi 4.1.9
 
 ## How To Installation Using Composer
@@ -17,6 +13,13 @@
 - Video tutorial : https://www.youtube.com/watch?v=vKFcpQo-h-Q&t=43s
 - File yang ditambahkan untuk cek "validasi input" ada di directory ./app/Helpers/Form_helper.php
 - File yang ditambahkan untuk "hash password" ada di directory ./app/Libraries/Hash.php
+
+## Tes Running
+
+- Ketikkan ini jia ingin melihan form login : http://localhost:8080
+  !["Jonheri API Tes Presentation"](https://adminlte.io/AdminLTE3.png "API Tes Presentation")
+
+# DOCUMENTASION BY JON HERI
 
 # CodeIgniter 4 Application Starter
 
