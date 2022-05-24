@@ -8,6 +8,10 @@
 - Setelah terinstall, silahkan buka project CodeIgniter4 ini, kemudian ketiikan di terminal "php spark serve"
 - Jika di terminal tampil "http://localhost:8080", brarti project CodeIgniter4 kita sudah bisa jalan di browser mdengan mengunjungi link "http://localhost:8080"
 
+# CSS Framework
+
+- Project ini menggunakan CSS framework Bootstrap 5 CDN
+
 ## Additional
 
 - Video tutorial : https://www.youtube.com/watch?v=vKFcpQo-h-Q&t=43s
@@ -16,7 +20,7 @@
 
 ## Tes Running
 
-- Ketikkan ini jia ingin melihan form login : http://localhost:8080
+- Ketikkan ini jika ingin melihan form login : http://localhost:8080/login
   !["Jonheri API Tes Presentation"](https://adminlte.io/AdminLTE3.png "API Tes Presentation")
 
 # DOCUMENTASION BY JON HERI
