@@ -20,7 +20,7 @@ class ModelUsers extends Model
     return $getData->getResult();
   }
 
-  public function getDataLogin($dataInput)
+  public function getLogin($dataInput)
   {
     $usernameInput = $dataInput['username'];
     $passwordInput = $dataInput['password'];
@@ -32,35 +32,33 @@ class ModelUsers extends Model
       "
     );
 
-    print_r($getData);
-    exit();
     return $getData->getResult();
   }
 
-  public function addData($data)
+  public function addData($dataAdd)
   {
 
     $username = "";
     $password = "";
     $fullname = "";
     $address = "";
-    $created_at = $data['created_at'];
-    $updated_at = $data['updated_at'];
+    $created_at = $dataAdd['created_at'];
+    $updated_at = $dataAdd['updated_at'];
 
-    if (isset($data['username'])) {
-      $username = $data['username'];
+    if (isset($dataAdd['username'])) {
+      $username = $dataAdd['username'];
     }
 
-    if (isset($data['password'])) {
-      $password = $data['password'];
+    if (isset($dataAdd['password'])) {
+      $password = $dataAdd['password'];
     }
 
     if (isset($data['fullname'])) {
-      $fullname = $data['fullname'];
+      $fullname = $dataAdd['fullname'];
     }
 
     if (isset($data['address'])) {
-      $address = $data['address'];
+      $address = $dataAdd['address'];
     }
 
     $saveData = $this->db->query(

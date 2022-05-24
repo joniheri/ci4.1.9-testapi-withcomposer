@@ -2,12 +2,11 @@
 
 namespace App\Controllers;
 
-use CodeIgniter\API\ResponseTrait;
 use App\Models\ModelUsers;
+use App\Libraries\Hash;
 
 class Auth extends BaseController
 {
-  use ResponseTrait; //Use this if you make API
 
   function __construct()
   {
@@ -27,6 +26,30 @@ class Auth extends BaseController
 
   public function processLogin()
   {
+    // ValidationInput
+    $validation = $this->validate([ //Valdation
+      'username' => [
+        'rules' => 'required|min_length[3]|is_not_unique[user.username]',
+        'errors' => [
+          'required' => 'Username is required',
+          'min_length' => 'Character input min 3 character',
+          'is_not_unique' => 'This username is not registered',
+        ],
+      ],
+      'password' => [
+        'rules' => 'required|min_length[4]',
+        'errors' => [
+          'required' => 'Password is required',
+          'min_length' => 'Character input min 4 character',
+        ],
+      ],
+
+    ]);
+    if (!$validation) {
+      return view('login', ['validation' => $this->validator]);
+      exit();
+    }
+    // End ValidationInput
 
     $usernameInput = $this->request->getVar('username'); //Data username From Input Form
     $passwordInput = $this->request->getVar('password'); //Data password From Input Form
@@ -35,13 +58,23 @@ class Auth extends BaseController
       'password' => $passwordInput,
     ];
 
-    $validation = $this->validate([
-      'username' => 'required',
-      'password' => 'required|min_length[4]|max_length[30]',
-    ]);
-    if (!$validation) {
-      return view('login', ['validation' => $this->validator]);
+    $getLogin = $this->ModelUsers->getLogin($dataInput); //Check username & password ada dan cocok di database
+
+    if (!$getLogin) {
+      $dataFailedLogin = [
+        'validation' => $this->validator,
+        'message' => 'Wrong username or password'
+      ];
+      return view('login', $dataFailedLogin);
+      exit();
     }
+
+    // LoginSuccess
+    $dataSuccess = [
+      'loginSucces' => 'Login Success',
+    ];
+    return view('login', $dataSuccess);
+    // End LoginSuccess
   }
 
   public function processRegister()
@@ -50,9 +83,10 @@ class Auth extends BaseController
     // ValidationInput
     $validation = $this->validate([ //Valdation
       'username' => [
-        'rules' => 'required',
+        'rules' => 'required|min_length[3]',
         'errors' => [
           'required' => 'Username is required',
+          'min_length' => 'Character input min 3 character'
         ],
       ],
       'password' => [
@@ -70,9 +104,7 @@ class Auth extends BaseController
           'matches' => 'Confirm password not match',
         ],
       ],
-
     ]);
-
     if (!$validation) {
       return view('register', ['validation' => $this->validator]);
       exit();
@@ -83,10 +115,11 @@ class Auth extends BaseController
     $getDataUsers = $this->ModelUsers->getData(); //Get ALl Data User
     $usernameInput = $this->request->getVar('username'); //Data Username From Input Form
     $passwordInput = $this->request->getVar('password'); //Data Username From Input Form
+    // End CheckDuplicateUsername
 
     foreach ($getDataUsers as $loop1) { //CekUsernameDuplicate
       if ($loop1->username === $this->request->getVar('username')) {
-        return view('register', ['duplicateUsername' => 'Username ' . $usernameInput . ' sudah ada']);
+        return view('register', ['message' => 'Username ' . $usernameInput . ' sudah ada']);
         exit();
       }
     }
@@ -94,7 +127,7 @@ class Auth extends BaseController
 
     $dataAdd = [ //Data Input From Input Form
       'username' => $usernameInput,
-      'password' => $passwordInput,
+      'password' => Hash::make($passwordInput),
       'created_at' => date('Y-m-d h:i:s'),
       'updated_at' => date('Y-m-d h:i:s'),
     ];
@@ -121,26 +154,13 @@ class Auth extends BaseController
 
   public function processLogout()
   {
-    return $this->respond([
-      'status' => 'Response Success',
-      'message' => 'Logout Success',
-    ]);
+    print_r('This is Function processLogout');
+    exit();
   }
 
   public function template()
   {
-    $data = [
-      'id' => '1',
-      'name' => 'Jon Heri',
-    ];
-
-    return $this->respond([
-      'status' => 'Response Success',
-      'message' => 'Cek data Success',
-      'error' => null,
-      'data' => [
-        'data' => $data,
-      ],
-    ]);
+    print_r('This is Function Template');
+    exit();
   }
 }

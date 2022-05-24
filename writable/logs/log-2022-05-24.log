@@ -1,0 +1,288 @@
+CRITICAL - 2022-05-24 02:03:28 --> Undefined variable $usernameInput
+#0 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\app\Controllers\Auth.php(97): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp-8.1.5\\...', 97)
+#1 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Auth->processRegister()
+#2 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#3 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp-8.1.5\\...')
+#6 {main}
+CRITICAL - 2022-05-24 02:03:32 --> Undefined variable $usernameInput
+#0 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\app\Controllers\Auth.php(97): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp-8.1.5\\...', 97)
+#1 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Auth->processRegister()
+#2 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#3 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp-8.1.5\\...')
+#6 {main}
+CRITICAL - 2022-05-24 02:04:34 --> password_hash(): Passing null to parameter #1 ($password) of type string is deprecated
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'password_hash()...', 'C:\\xampp-8.1.5\\...', 10)
+#1 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\app\Libraries\Hash.php(10): password_hash(NULL, '2y')
+#2 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\app\Controllers\Auth.php(99): App\Libraries\Hash::make(NULL)
+#3 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Auth->processRegister()
+#4 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#5 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp-8.1.5\\...')
+#8 {main}
+CRITICAL - 2022-05-24 02:06:19 --> password_hash(): Passing null to parameter #1 ($password) of type string is deprecated
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'password_hash()...', 'C:\\xampp-8.1.5\\...', 10)
+#1 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\app\Libraries\Hash.php(10): password_hash(NULL, '2y')
+#2 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\app\Controllers\Auth.php(99): App\Libraries\Hash::make(NULL)
+#3 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Auth->processRegister()
+#4 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#5 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp-8.1.5\\...')
+#8 {main}
+CRITICAL - 2022-05-24 02:06:21 --> password_hash(): Passing null to parameter #1 ($password) of type string is deprecated
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'password_hash()...', 'C:\\xampp-8.1.5\\...', 10)
+#1 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\app\Libraries\Hash.php(10): password_hash(NULL, '2y')
+#2 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\app\Controllers\Auth.php(99): App\Libraries\Hash::make(NULL)
+#3 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Auth->processRegister()
+#4 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#5 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp-8.1.5\\...')
+#8 {main}
+CRITICAL - 2022-05-24 02:09:51 --> password_hash(): Passing null to parameter #1 ($password) of type string is deprecated
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'password_hash()...', 'C:\\xampp-8.1.5\\...', 10)
+#1 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\app\Libraries\Hash.php(10): password_hash(NULL, '2y')
+#2 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\app\Controllers\Auth.php(99): App\Libraries\Hash::make(NULL)
+#3 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Auth->processRegister()
+#4 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#5 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp-8.1.5\\...')
+#8 {main}
+CRITICAL - 2022-05-24 02:10:38 --> password_hash(): Passing null to parameter #1 ($password) of type string is deprecated
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'password_hash()...', 'C:\\xampp-8.1.5\\...', 10)
+#1 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\app\Libraries\Hash.php(10): password_hash(NULL, '2y')
+#2 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\app\Controllers\Auth.php(99): App\Libraries\Hash::make(NULL)
+#3 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Auth->processRegister()
+#4 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#5 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp-8.1.5\\...')
+#8 {main}
+CRITICAL - 2022-05-24 02:12:27 --> password_hash(): Passing null to parameter #1 ($password) of type string is deprecated
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'password_hash()...', 'C:\\xampp-8.1.5\\...', 10)
+#1 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\app\Libraries\Hash.php(10): password_hash(NULL, '2y')
+#2 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\app\Controllers\Auth.php(99): App\Libraries\Hash::make(NULL)
+#3 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Auth->processRegister()
+#4 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#5 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp-8.1.5\\...')
+#8 {main}
+ERROR - 2022-05-24 02:51:15 --> Error connecting to the database: No connection could be made because the target machine actively refused it
+CRITICAL - 2022-05-24 02:51:15 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+#0 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\app\Models\ModelUsers.php(16): CodeIgniter\Database\BaseConnection->query('\r\n        SELEC...')
+#2 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\app\Controllers\Auth.php(84): App\Models\ModelUsers->getData()
+#3 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Auth->processRegister()
+#4 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#5 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp-8.1.5\\...')
+#8 {main}
+CRITICAL - 2022-05-24 03:53:35 --> Undefined variable $validation
+#0 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\app\Views\login.php(2): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp-8.1.5\\...', 2)
+#1 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp-8.1.5\\...')
+#2 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('login', Array, true)
+#4 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\app\Controllers\Auth.php(21): view('login')
+#5 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Auth->login()
+#6 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#7 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp-8.1.5\\...')
+#10 {main}
+CRITICAL - 2022-05-24 03:53:39 --> Undefined variable $validation
+#0 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\app\Views\login.php(2): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp-8.1.5\\...', 2)
+#1 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp-8.1.5\\...')
+#2 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('login', Array, true)
+#4 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\app\Controllers\Auth.php(21): view('login')
+#5 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Auth->login()
+#6 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#7 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp-8.1.5\\...')
+#10 {main}
+ERROR - 2022-05-24 05:08:17 --> Error connecting to the database: No connection could be made because the target machine actively refused it
+CRITICAL - 2022-05-24 05:08:17 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+#0 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#2 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\Validation\Rules.php(104): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\Validation\Validation.php(292): CodeIgniter\Validation\Rules->is_not_unique('jonheri', 'username', Array, NULL)
+#4 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\Validation\Validation.php(157): CodeIgniter\Validation\Validation->processRules('username', 'username', 'jonheri', Array, Array)
+#5 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\Controller.php(160): CodeIgniter\Validation\Validation->run()
+#6 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\app\Controllers\Auth.php(32): CodeIgniter\Controller->validate(Array)
+#7 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Auth->processLogin()
+#8 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#9 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp-8.1.5\\...')
+#12 {main}
+ERROR - 2022-05-24 05:08:19 --> Error connecting to the database: No connection could be made because the target machine actively refused it
+CRITICAL - 2022-05-24 05:08:19 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+#0 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#2 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\Validation\Rules.php(104): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\Validation\Validation.php(292): CodeIgniter\Validation\Rules->is_not_unique('jonheri', 'username', Array, NULL)
+#4 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\Validation\Validation.php(157): CodeIgniter\Validation\Validation->processRules('username', 'username', 'jonheri', Array, Array)
+#5 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\Controller.php(160): CodeIgniter\Validation\Validation->run()
+#6 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\app\Controllers\Auth.php(32): CodeIgniter\Controller->validate(Array)
+#7 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Auth->processLogin()
+#8 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#9 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp-8.1.5\\...')
+#12 {main}
+ERROR - 2022-05-24 05:08:21 --> Error connecting to the database: No connection could be made because the target machine actively refused it
+CRITICAL - 2022-05-24 05:08:21 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+#0 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#2 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\Validation\Rules.php(104): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\Validation\Validation.php(292): CodeIgniter\Validation\Rules->is_not_unique('jonheri', 'username', Array, NULL)
+#4 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\Validation\Validation.php(157): CodeIgniter\Validation\Validation->processRules('username', 'username', 'jonheri', Array, Array)
+#5 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\Controller.php(160): CodeIgniter\Validation\Validation->run()
+#6 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\app\Controllers\Auth.php(32): CodeIgniter\Controller->validate(Array)
+#7 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Auth->processLogin()
+#8 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#9 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp-8.1.5\\...')
+#12 {main}
+ERROR - 2022-05-24 05:08:23 --> Error connecting to the database: No connection could be made because the target machine actively refused it
+CRITICAL - 2022-05-24 05:08:23 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+#0 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#2 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\Validation\Rules.php(104): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\Validation\Validation.php(292): CodeIgniter\Validation\Rules->is_not_unique('jonheri', 'username', Array, NULL)
+#4 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\Validation\Validation.php(157): CodeIgniter\Validation\Validation->processRules('username', 'username', 'jonheri', Array, Array)
+#5 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\Controller.php(160): CodeIgniter\Validation\Validation->run()
+#6 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\app\Controllers\Auth.php(32): CodeIgniter\Controller->validate(Array)
+#7 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Auth->processLogin()
+#8 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#9 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp-8.1.5\\...')
+#12 {main}
+ERROR - 2022-05-24 05:08:25 --> Error connecting to the database: No connection could be made because the target machine actively refused it
+CRITICAL - 2022-05-24 05:08:25 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+#0 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#2 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\Validation\Rules.php(104): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\Validation\Validation.php(292): CodeIgniter\Validation\Rules->is_not_unique('jonheri', 'username', Array, NULL)
+#4 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\Validation\Validation.php(157): CodeIgniter\Validation\Validation->processRules('username', 'username', 'jonheri', Array, Array)
+#5 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\Controller.php(160): CodeIgniter\Validation\Validation->run()
+#6 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\app\Controllers\Auth.php(32): CodeIgniter\Controller->validate(Array)
+#7 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Auth->processLogin()
+#8 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#9 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp-8.1.5\\...')
+#12 {main}
+ERROR - 2022-05-24 05:08:28 --> Error connecting to the database: No connection could be made because the target machine actively refused it
+CRITICAL - 2022-05-24 05:08:28 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+#0 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#2 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\Validation\Rules.php(104): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\Validation\Validation.php(292): CodeIgniter\Validation\Rules->is_not_unique('jonheri', 'username', Array, NULL)
+#4 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\Validation\Validation.php(157): CodeIgniter\Validation\Validation->processRules('username', 'username', 'jonheri', Array, Array)
+#5 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\Controller.php(160): CodeIgniter\Validation\Validation->run()
+#6 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\app\Controllers\Auth.php(32): CodeIgniter\Controller->validate(Array)
+#7 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Auth->processLogin()
+#8 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#9 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp-8.1.5\\...')
+#12 {main}
+ERROR - 2022-05-24 05:08:30 --> Error connecting to the database: No connection could be made because the target machine actively refused it
+CRITICAL - 2022-05-24 05:08:30 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+#0 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#2 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\Validation\Rules.php(104): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\Validation\Validation.php(292): CodeIgniter\Validation\Rules->is_not_unique('jonheri', 'username', Array, NULL)
+#4 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\Validation\Validation.php(157): CodeIgniter\Validation\Validation->processRules('username', 'username', 'jonheri', Array, Array)
+#5 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\Controller.php(160): CodeIgniter\Validation\Validation->run()
+#6 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\app\Controllers\Auth.php(32): CodeIgniter\Controller->validate(Array)
+#7 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Auth->processLogin()
+#8 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#9 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp-8.1.5\\...')
+#12 {main}
+ERROR - 2022-05-24 05:08:32 --> Error connecting to the database: No connection could be made because the target machine actively refused it
+CRITICAL - 2022-05-24 05:08:32 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+#0 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#2 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\Validation\Rules.php(104): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\Validation\Validation.php(292): CodeIgniter\Validation\Rules->is_not_unique('jonheri', 'username', Array, NULL)
+#4 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\Validation\Validation.php(157): CodeIgniter\Validation\Validation->processRules('username', 'username', 'jonheri', Array, Array)
+#5 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\Controller.php(160): CodeIgniter\Validation\Validation->run()
+#6 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\app\Controllers\Auth.php(32): CodeIgniter\Controller->validate(Array)
+#7 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Auth->processLogin()
+#8 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#9 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp-8.1.5\\...')
+#12 {main}
+ERROR - 2022-05-24 05:08:34 --> Error connecting to the database: No connection could be made because the target machine actively refused it
+CRITICAL - 2022-05-24 05:08:34 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+#0 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#2 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\Validation\Rules.php(104): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\Validation\Validation.php(292): CodeIgniter\Validation\Rules->is_not_unique('jonheri', 'username', Array, NULL)
+#4 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\Validation\Validation.php(157): CodeIgniter\Validation\Validation->processRules('username', 'username', 'jonheri', Array, Array)
+#5 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\Controller.php(160): CodeIgniter\Validation\Validation->run()
+#6 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\app\Controllers\Auth.php(32): CodeIgniter\Controller->validate(Array)
+#7 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Auth->processLogin()
+#8 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#9 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp-8.1.5\\...')
+#12 {main}
+ERROR - 2022-05-24 05:08:36 --> Error connecting to the database: No connection could be made because the target machine actively refused it
+CRITICAL - 2022-05-24 05:08:36 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+#0 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#2 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\Validation\Rules.php(104): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\Validation\Validation.php(292): CodeIgniter\Validation\Rules->is_not_unique('jon', 'username', Array, NULL)
+#4 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\Validation\Validation.php(157): CodeIgniter\Validation\Validation->processRules('username', 'username', 'jon', Array, Array)
+#5 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\Controller.php(160): CodeIgniter\Validation\Validation->run()
+#6 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\app\Controllers\Auth.php(32): CodeIgniter\Controller->validate(Array)
+#7 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Auth->processLogin()
+#8 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#9 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp-8.1.5\\...')
+#12 {main}
+ERROR - 2022-05-24 05:08:48 --> Error connecting to the database: No connection could be made because the target machine actively refused it
+CRITICAL - 2022-05-24 05:08:48 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+#0 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#2 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\Validation\Rules.php(104): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\Validation\Validation.php(292): CodeIgniter\Validation\Rules->is_not_unique('jon', 'username', Array, NULL)
+#4 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\Validation\Validation.php(157): CodeIgniter\Validation\Validation->processRules('username', 'username', 'jon', Array, Array)
+#5 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\Controller.php(160): CodeIgniter\Validation\Validation->run()
+#6 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\app\Controllers\Auth.php(32): CodeIgniter\Controller->validate(Array)
+#7 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Auth->processLogin()
+#8 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#9 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp-8.1.5\\...')
+#12 {main}
