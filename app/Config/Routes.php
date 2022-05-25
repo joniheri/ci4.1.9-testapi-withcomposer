@@ -41,16 +41,19 @@ $routes->add('users/template', 'Users::template');
 // End GroupRoute-Users
 
 // Route-Auth
-$routes->get('login', 'Auth::login');
 $routes->get('register', 'Auth::register');
+$routes->get('login', 'Auth::login');
 $routes->get('processlogin', 'Auth::processLogin');
 $routes->get('processregister', 'Auth::processRegister');
+$routes->post('logout', 'Auth::processLogout');
 // End Route-Auth
 
 // Route-ApiAuth
-$routes->post('authentication/login', 'ApiAuth::login');
-$routes->post('authentication/register', 'ApiAuth::register');
-$routes->post('auth/logout', 'ApiAuth::processLogout');
+$routes->group('authentication', function ($routes) {
+    $routes->post('register', 'ApiAuth::register');
+    $routes->post('login', 'ApiAuth::login');
+    $routes->post('logout', 'ApiAuth::processLogout');
+});
 // End Route-APiAuth
 
 /*

@@ -16,6 +16,89 @@ class ApiAuth extends BaseController
     helper(['url', 'form']);
   }
 
+  // End Function Register
+  public function register()
+  {
+
+    // ValidationInput
+    $validation = $this->validate([ //Valdation
+      'username' => [
+        'rules' => 'required|min_length[3]',
+        'errors' => [
+          'required' => 'Username is required',
+          'min_length' => 'Username min 3 character'
+        ],
+      ],
+      'password' => [
+        'rules' => 'required|min_length[4]',
+        'errors' => [
+          'required' => 'Password is required',
+          'min_length' => 'Password min 4 character',
+        ],
+      ],
+      'cpassword' => [
+        'rules' => 'required|min_length[4]|matches[password]',
+        'errors' => [
+          'required' => 'Confirm password is required',
+          'min_length' => 'Confirm password min 4 character',
+          'matches' => 'Confirm password not match',
+        ],
+      ],
+    ]);
+
+    if (!$validation) {
+      return $this->respond([
+        'status' => 'Response Fail',
+        'message' => 'Register Failed',
+        'error' =>  $this->validator->getErrors(),
+      ]);
+      exit();
+    }
+
+    $usernameInput = $this->request->getVar('username'); //Username From Input
+    $passwordInput = $this->request->getVar('cpassword'); //Username From Input
+
+    // CheckDuplicateUsername
+    $getDataUsers = $this->ModelUsers->getData(); //Get ALl Data User
+    foreach ($getDataUsers as $loop1) { //CekUsernameDuplicate
+      if ($loop1->username === $usernameInput) {
+        return $this->respond([
+          'status' => 'Response Fail',
+          'message' => 'Username ' . $usernameInput . ' has been used',
+        ]);
+        exit();
+      }
+    }
+    // End CheckDuplicateUsername
+
+    $dataAdd = [ //Data Input From Input Form
+      'username' => $usernameInput,
+      'password' => Hash::make($passwordInput),
+      'created_at' => date('Y-m-d h:i:s'),
+      'updated_at' => date('Y-m-d h:i:s'),
+    ];
+
+    if (!$this->ModelUsers->addData($dataAdd)) { //Check if insert date to database Failed
+      return $this->respond([
+        'status' => 'Response Fail',
+        'message' => 'Register Failed',
+      ]);
+      exit();
+    }
+
+    // RegisterSuccess
+    return $this->respond([
+      'status' => 'Response Success',
+      'message' => 'Register Success',
+      'dataRegister' => $dataAdd,
+    ]);
+    // ENd RegisterSuccess
+
+  }
+  // End Function Register
+  // ============================================
+
+  // Function Login
   public function login()
   {
 
@@ -43,103 +126,31 @@ class ApiAuth extends BaseController
       return $this->respond([
         'status' => 'Response Success',
         'message' => 'Login Success',
-        'dataUser' => [
-          'id' => $getUsername[0]->id,
-          'username' => $getUsername[0]->username,
-          'password' => $getUsername[0]->password,
-        ]
       ]);
+      exit();
     } else {
       return $this->respond([
         'status' => 'Response Failed',
-        'message' => 'Login Failed',
+        'message' => 'Username or password si wrong',
       ]);
-    }
-
-    return $this->respond([
-      'status' => 'Response Success',
-      'message' => 'Login Success',
-    ]);
-  }
-
-  public function processRegister()
-  {
-
-    // ValidationInput
-    $validation = $this->validate([ //Valdation
-      'username' => [
-        'rules' => 'required',
-        'errors' => [
-          'required' => 'Username is required',
-        ],
-      ],
-      'password' => [
-        'rules' => 'required|min_length[4]',
-        'errors' => [
-          'required' => 'Password is required',
-          'min_length' => 'Character input min 4 character',
-        ],
-      ],
-      'cpassword' => [
-        'rules' => 'required|min_length[4]|matches[password]',
-        'errors' => [
-          'required' => 'Confirm password is required',
-          'min_length' => 'Character input min 4 character',
-          'matches' => 'Confirm password not match',
-        ],
-      ],
-
-    ]);
-
-    if (!$validation) {
-      return view('register', ['validation' => $this->validator]);
       exit();
     }
-    // End ValidationInput
-
-    // CheckDuplicateUsername
-    $getDataUsers = $this->ModelUsers->getData(); //Get ALl Data User
-    $usernameInput = $this->request->getVar('username'); //Data Username From Input Form
-    $passwordInput = $this->request->getVar('password'); //Data Username From Input Form
-
-    foreach ($getDataUsers as $loop1) { //CekUsernameDuplicate
-      if ($loop1->username === $this->request->getVar('username')) {
-        return view('register', ['duplicateUsername' => 'Username ' . $usernameInput . ' has been used']);
-        exit();
-      }
-    }
-    // End CheckDuplicateUsername
-
-    $dataAdd = [ //Data Input From Input Form
-      'username' => $usernameInput,
-      'password' => Hash::make($passwordInput),
-      'created_at' => date('Y-m-d h:i:s'),
-      'updated_at' => date('Y-m-d h:i:s'),
-    ];
-
-    if ($this->ModelUsers->addData($dataAdd) <= 0) { //Check if insert date to database Failed
-      return view('register', ['validation' => $this->validator]);
-      exit();
-    }
-
-    // RegisterSuccess
-    return view('register', ['registerSucces' => 'Register Success']);
-    // End RegisterSuccess
   }
+  // End Function Login
+  // ============================================
 
-  public function dashboardUser()
-  {
-    return view('admin/dashboard');
-  }
-
-  public function processLogout()
+  // Function logout
+  public function logout()
   {
     return $this->respond([
       'status' => 'Response Success',
       'message' => 'Logout Success',
     ]);
   }
+  // End Function Logout
+  // ============================================
 
+  // Function Template
   public function template()
   {
     $data = [
@@ -156,4 +167,6 @@ class ApiAuth extends BaseController
       ],
     ]);
   }
+  // End Function Logout
+  // ============================================
 }

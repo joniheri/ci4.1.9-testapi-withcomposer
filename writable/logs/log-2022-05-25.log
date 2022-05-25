@@ -1,0 +1,93 @@
+CRITICAL - 2022-05-25 02:13:33 --> password_hash(): Passing null to parameter #1 ($password) of type string is deprecated
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'password_hash()...', 'C:\\xampp-8.1.5\\...', 10)
+#1 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\app\Libraries\Hash.php(10): password_hash(NULL, '2y')
+#2 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\app\Controllers\ApiAuth.php(25): App\Libraries\Hash::make(NULL)
+#3 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\ApiAuth->register()
+#4 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAuth))
+#5 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp-8.1.5\\...')
+#8 {main}
+CRITICAL - 2022-05-25 02:14:25 --> password_hash(): Passing null to parameter #1 ($password) of type string is deprecated
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'password_hash()...', 'C:\\xampp-8.1.5\\...', 10)
+#1 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\app\Libraries\Hash.php(10): password_hash(NULL, '2y')
+#2 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\app\Controllers\ApiAuth.php(25): App\Libraries\Hash::make(NULL)
+#3 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\ApiAuth->register()
+#4 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAuth))
+#5 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp-8.1.5\\...')
+#8 {main}
+CRITICAL - 2022-05-25 02:15:08 --> password_hash(): Passing null to parameter #1 ($password) of type string is deprecated
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'password_hash()...', 'C:\\xampp-8.1.5\\...', 10)
+#1 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\app\Libraries\Hash.php(10): password_hash(NULL, '2y')
+#2 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\app\Controllers\ApiAuth.php(25): App\Libraries\Hash::make(NULL)
+#3 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\ApiAuth->register()
+#4 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAuth))
+#5 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp-8.1.5\\...')
+#8 {main}
+CRITICAL - 2022-05-25 02:16:49 --> password_hash(): Passing null to parameter #1 ($password) of type string is deprecated
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'password_hash()...', 'C:\\xampp-8.1.5\\...', 10)
+#1 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\app\Libraries\Hash.php(10): password_hash(NULL, '2y')
+#2 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\app\Controllers\ApiAuth.php(25): App\Libraries\Hash::make(NULL)
+#3 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\ApiAuth->register()
+#4 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAuth))
+#5 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp-8.1.5\\...')
+#8 {main}
+CRITICAL - 2022-05-25 02:54:27 --> CodeIgniter\Validation\Validation::setRules(): Argument #1 ($rules) must be of type array, bool given, called in C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\Controller.php on line 160
+#0 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\Controller.php(160): CodeIgniter\Validation\Validation->setRules(false, Array)
+#1 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\app\Controllers\ApiAuth.php(53): CodeIgniter\Controller->validate(false)
+#2 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\ApiAuth->register()
+#3 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAuth))
+#4 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp-8.1.5\\...')
+#7 {main}
+CRITICAL - 2022-05-25 03:06:23 --> CodeIgniter\Validation\Rules::min_length(): Argument #2 ($val) must be of type string, null given, called in C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\Validation\Validation.php on line 291
+#0 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\Validation\Validation.php(291): CodeIgniter\Validation\Rules->min_length('jon', NULL)
+#1 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\Validation\Validation.php(157): CodeIgniter\Validation\Validation->processRules('username', 'username', 'jon', Array, Array)
+#2 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\Controller.php(160): CodeIgniter\Validation\Validation->run()
+#3 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\app\Controllers\ApiAuth.php(26): CodeIgniter\Controller->validate(Array)
+#4 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\ApiAuth->register()
+#5 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAuth))
+#6 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp-8.1.5\\...')
+#9 {main}
+CRITICAL - 2022-05-25 03:14:49 --> CodeIgniter\Validation\Validation::setRules(): Argument #1 ($rules) must be of type array, bool given, called in C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\Controller.php on line 160
+#0 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\Controller.php(160): CodeIgniter\Validation\Validation->setRules(false, Array)
+#1 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\app\Controllers\ApiAuth.php(53): CodeIgniter\Controller->validate(false)
+#2 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\ApiAuth->register()
+#3 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAuth))
+#4 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp-8.1.5\\...')
+#7 {main}
+CRITICAL - 2022-05-25 03:21:53 --> Object of class App\Controllers\ApiAuth could not be converted to string
+#0 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\ApiAuth->register()
+#1 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAuth))
+#2 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp-8.1.5\\...')
+#5 {main}
+ERROR - 2022-05-25 03:59:50 --> Unknown column 'tbuser' in 'where clause'
+CRITICAL - 2022-05-25 04:57:27 --> Undefined array key 0
+#0 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\app\Controllers\ApiAuth.php(125): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp-8.1.5\\...', 125)
+#1 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\ApiAuth->login()
+#2 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAuth))
+#3 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp-8.1.5\\...')
+#6 {main}
+CRITICAL - 2022-05-25 04:57:52 --> Undefined array key 0
+#0 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\app\Controllers\ApiAuth.php(125): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp-8.1.5\\...', 125)
+#1 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\ApiAuth->login()
+#2 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAuth))
+#3 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp-8.1.5\\...')
+#6 {main}

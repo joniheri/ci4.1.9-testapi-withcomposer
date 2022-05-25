@@ -26,6 +26,7 @@
 - Video tutorial : https://www.youtube.com/watch?v=vKFcpQo-h-Q&t=43s
 - File yang ditambahkan untuk cek "validasi input" ada di directory ./app/Helpers/Form_helper.php
 - File yang ditambahkan untuk "hash password" ada di directory ./app/Libraries/Hash.php
+- File yang ditambahkan untuk "filter" ada di directory ./app/Libraries/AuthCheckFilter.php
 
 # DOCUMENTASION BY JON HERI
 

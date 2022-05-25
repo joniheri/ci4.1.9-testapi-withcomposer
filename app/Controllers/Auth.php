@@ -24,60 +24,7 @@ class Auth extends BaseController
     return view('register');
   }
 
-  public function processLogin()
-  {
-    // ValidationInput
-    $validation = $this->validate([ //Valdation
-      'username' => [
-        'rules' => 'required',
-        'errors' => [
-          'required' => 'Username is required',
-          'min_length' => 'Character input min 3 character',
-        ],
-      ],
-      'password' => [
-        'rules' => 'required|min_length[4]',
-        'errors' => [
-          'required' => 'Password is required',
-          'min_length' => 'Character input min 4 character',
-        ],
-      ],
-
-    ]);
-    if (!$validation) {
-      return view('login', ['validation' => $this->validator]);
-      exit();
-    }
-    // End ValidationInput
-
-    $usernameInput = $this->request->getVar('username'); //Data username From Input Form
-    $passwordInput = $this->request->getVar('password'); //Data password From Input Form
-    $dataInput = [
-      'username' => $usernameInput,
-      'password' => $passwordInput,
-    ];
-
-    $getUsername = $this->ModelUsers->getUsername($dataInput); //Check username & password ada dan cocok di database
-
-    if (!$getUsername || !password_verify($passwordInput, $getUsername[0]->password)) {
-      $dataFailedLogin = [
-        'validation' => $this->validator,
-        'messageFailedLogin' => 'Username or password is wrong'
-      ];
-      return view('login', $dataFailedLogin);
-      exit();
-    }
-
-    // LoginSuccess
-    $dataSuccessLogin = [
-      'messageLogin' => 'Login Success',
-      'dataUser' => $getUsername,
-    ];
-    return view('admin/dashboard', $dataSuccessLogin);
-    // End LoginSuccess
-
-  }
-
+  // Function Register
   public function processRegister()
   {
 
@@ -144,6 +91,62 @@ class Auth extends BaseController
     ];
     return view('register', $dataSuccess);
     // End RegisterSuccess
+  }
+  // End Function Register
+  // ============================================
+
+  public function processLogin()
+  {
+    // ValidationInput
+    $validation = $this->validate([ //Valdation
+      'username' => [
+        'rules' => 'required',
+        'errors' => [
+          'required' => 'Username is required',
+          'min_length' => 'Character input min 3 character',
+        ],
+      ],
+      'password' => [
+        'rules' => 'required|min_length[4]',
+        'errors' => [
+          'required' => 'Password is required',
+          'min_length' => 'Character input min 4 character',
+        ],
+      ],
+
+    ]);
+    if (!$validation) {
+      return view('login', ['validation' => $this->validator]);
+      exit();
+    }
+    // End ValidationInput
+
+    $usernameInput = $this->request->getVar('username'); //Data username From Input Form
+    $passwordInput = $this->request->getVar('password'); //Data password From Input Form
+    $dataInput = [
+      'username' => $usernameInput,
+      'password' => $passwordInput,
+    ];
+
+    $getUsername = $this->ModelUsers->getUsername($dataInput); //Check username & password ada dan cocok di database
+
+    if (!$getUsername || !password_verify($passwordInput, $getUsername[0]->password)) {
+      $dataFailedLogin = [
+        'validation' => $this->validator,
+        'messageFailedLogin' => 'Username or password is wrong'
+      ];
+      return view('login', $dataFailedLogin);
+      exit();
+    }
+
+    // LoginSuccess
+    $dataSuccessLogin = [
+      'messageLogin' => 'Login Success',
+      'dataUser' => $getUsername,
+    ];
+    return view('admin/dashboard', $dataSuccessLogin);
+    // End LoginSuccess
+
   }
 
   public function dashboardUser()
