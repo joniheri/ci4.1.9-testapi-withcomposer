@@ -14,21 +14,20 @@ class ModelUsers extends Model
   {
     $getData = $this->db->query(
       "
-        SELECT * FROM ged_ms.user tbUser ORDER BY tbUser.id DESC
+        SELECT * FROM ged_ms.user
       "
     );
     return $getData->getResult();
   }
 
-  public function getLogin($dataInput)
+  public function getUsername($dataInput)
   {
     $usernameInput = $dataInput['username'];
-    $passwordInput = $dataInput['password'];
 
     $getData = $this->db->query(
       "
         SELECT * FROM ged_ms.user tbuser
-        WHERE tbuser.username ='$usernameInput' AND tbuser.password ='$passwordInput'
+        WHERE tbuser.username ='$usernameInput'
       "
     );
 

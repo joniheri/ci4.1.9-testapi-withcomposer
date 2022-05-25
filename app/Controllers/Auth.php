@@ -29,11 +29,10 @@ class Auth extends BaseController
     // ValidationInput
     $validation = $this->validate([ //Valdation
       'username' => [
-        'rules' => 'required|min_length[3]|is_not_unique[user.username]',
+        'rules' => 'required',
         'errors' => [
           'required' => 'Username is required',
           'min_length' => 'Character input min 3 character',
-          'is_not_unique' => 'This username is not registered',
         ],
       ],
       'password' => [
@@ -58,23 +57,25 @@ class Auth extends BaseController
       'password' => $passwordInput,
     ];
 
-    $getLogin = $this->ModelUsers->getLogin($dataInput); //Check username & password ada dan cocok di database
+    $getUsername = $this->ModelUsers->getUsername($dataInput); //Check username & password ada dan cocok di database
 
-    if (!$getLogin) {
+    if (!$getUsername || !password_verify($passwordInput, $getUsername[0]->password)) {
       $dataFailedLogin = [
         'validation' => $this->validator,
-        'message' => 'Wrong username or password'
+        'messageFailedLogin' => 'Username or password is wrong'
       ];
       return view('login', $dataFailedLogin);
       exit();
     }
 
     // LoginSuccess
-    $dataSuccess = [
-      'loginSucces' => 'Login Success',
+    $dataSuccessLogin = [
+      'messageLogin' => 'Login Success',
+      'dataUser' => $getUsername,
     ];
-    return view('login', $dataSuccess);
+    return view('admin/dashboard', $dataSuccessLogin);
     // End LoginSuccess
+
   }
 
   public function processRegister()
@@ -115,11 +116,9 @@ class Auth extends BaseController
     $getDataUsers = $this->ModelUsers->getData(); //Get ALl Data User
     $usernameInput = $this->request->getVar('username'); //Data Username From Input Form
     $passwordInput = $this->request->getVar('password'); //Data Username From Input Form
-    // End CheckDuplicateUsername
-
     foreach ($getDataUsers as $loop1) { //CekUsernameDuplicate
       if ($loop1->username === $this->request->getVar('username')) {
-        return view('register', ['message' => 'Username ' . $usernameInput . ' sudah ada']);
+        return view('register', ['message' => 'Username ' . $usernameInput . ' has been used']);
         exit();
       }
     }
@@ -139,7 +138,7 @@ class Auth extends BaseController
 
     // RegisterSuccess
     $dataSuccess = [
-      'registerSucces' => 'Register Success',
+      'messageRegister' => 'Register Success',
       'usernameSuccess' => '',
       'passwordSuccess' => '',
     ];
@@ -152,10 +151,15 @@ class Auth extends BaseController
     return view('admin/dashboard');
   }
 
-  public function processLogout()
+  public function logout()
   {
-    print_r('This is Function processLogout');
-    exit();
+    $dataSuccess = [
+      'messageLogout' => 'Logout Success',
+      'usernameSuccess' => '',
+      'passwordSuccess' => '',
+    ];
+    // return view('login', $dataSuccess);
+    return redirect('login');
   }
 
   public function template()

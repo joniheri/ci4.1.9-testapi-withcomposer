@@ -15,25 +15,25 @@ echo view('template-bootstrap5/navbar');
         <?php
         if (isset($message)) {
           echo '<div class="alert alert-danger" role="alert">' . $message . '</div>';
-        } elseif (isset($registerSucces)) {
-          echo '<div class="alert alert-success" role="alert">' . $registerSucces . '</div>';
+        } elseif (isset($messageRegister)) {
+          echo '<div class="alert alert-success" role="alert">' . $messageRegister . '</div>';
         }
         ?>
         <!-- End NotifAddSuccessOrFailed -->
 
         <div class="form-group mb-3">
           <label for="" class="mb-1">Username</label>
-          <input type="text" class="form-control" name="username" placeholder="Enter your username" value="<?= isset($registerSucces) ? '' : set_value('username') ?>" <?= isset($validation) && display_error($validation, 'username') ? 'autofocus' : '' ?> <?= isset($message) || isset($registerSucces) ? 'autofocus' : '' ?>>
+          <input type="text" class="form-control" name="username" placeholder="Enter your username" value="<?= isset($messageRegister) ? '' : set_value('username') ?>" <?= isset($validation) && display_error($validation, 'username') ? 'autofocus' : '' ?> <?= isset($message) || isset($messageRegister) ? 'autofocus' : '' ?>>
           <span class="text-danger"><?= isset($validation) ? display_error($validation, 'username') : '' ?></span>
         </div>
         <div class="form-group mb-3">
           <label for="" class="mb-1">Password</label>
-          <input type="password" class="form-control" name="password" placeholder="Enter your password" value="<?= isset($registerSucces) ? '' : set_value('password') ?>" <?= isset($validation) && display_error($validation, 'password') ? 'autofocus' : '' ?>>
+          <input type="password" class="form-control" name="password" placeholder="Enter your password" value="<?= isset($messageRegister) ? '' : set_value('password') ?>" <?= isset($validation) && display_error($validation, 'password') ? 'autofocus' : '' ?>>
           <span class="text-danger"><?= isset($validation) ? display_error($validation, 'password') : '' ?></span>
         </div>
         <div class="form-group mb-3">
           <label for="" class="mb-1">Confirm Password</label>
-          <input type="password" class="form-control" name="cpassword" placeholder="Enter your password" value="<?= isset($registerSucces) ? '' : set_value('cpassword') ?>" <?= isset($validation) && display_error($validation, 'cpassword') ? 'autofocus' : '' ?>>
+          <input type="password" class="form-control" name="cpassword" placeholder="Enter your password" value="<?= isset($messageRegister) ? '' : set_value('cpassword') ?>" <?= isset($validation) && display_error($validation, 'cpassword') ? 'autofocus' : '' ?>>
           <span class="text-danger"><?= isset($validation) ? display_error($validation, 'cpassword') : '' ?></span>
         </div>
         <div class="form-group mb-3">

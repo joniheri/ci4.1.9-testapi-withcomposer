@@ -4,6 +4,7 @@ namespace App\Controllers;
 
 use CodeIgniter\API\ResponseTrait;
 use App\Models\ModelUsers;
+use App\Libraries\Hash;
 
 class ApiAuth extends BaseController
 {
@@ -15,37 +16,45 @@ class ApiAuth extends BaseController
     helper(['url', 'form']);
   }
 
-  public function formLogin()
-  {
-    return view('login');
-  }
-
-  public function formRegister()
-  {
-    return view('register');
-  }
-
-  public function processLogin()
+  public function login()
   {
 
     $usernameInput = $this->request->getVar('username'); //Data username From Input Form
     $passwordInput = $this->request->getVar('password'); //Data password From Input Form
+    if (empty($usernameInput)) {
+      return $this->respond([
+        'status' => 'Response Failed',
+        'message' => 'Username tidak boleh kosong',
+      ]);
+    } else if (empty($passwordInput)) {
+      return $this->respond([
+        'status' => 'Response Failed',
+        'message' => 'Password tidak boleh kosong',
+      ]);
+    }
+
     $dataInput = [
       'username' => $usernameInput,
       'password' => $passwordInput,
     ];
+    $getUsername = $this->ModelUsers->getUsername($dataInput); //Check username & password ada dan cocok di database
 
-    $validation = $this->validate([
-      'username' => 'required',
-      'password' => 'required|min_length[4]|max_length[30]',
-    ]);
-    if (!$validation) {
-      return view('login', ['validation' => $this->validator]);
+    if (!empty($getUsername) && password_verify($passwordInput, $getUsername[0]->password)) {
+      return $this->respond([
+        'status' => 'Response Success',
+        'message' => 'Login Success',
+        'dataUser' => [
+          'id' => $getUsername[0]->id,
+          'username' => $getUsername[0]->username,
+          'password' => $getUsername[0]->password,
+        ]
+      ]);
+    } else {
+      return $this->respond([
+        'status' => 'Response Failed',
+        'message' => 'Login Failed',
+      ]);
     }
-
-    $getDataLogin = $this->ModelUsers->getDataLogin($dataInput); //Get ALl Data User
-    // print_r($getDataLogin);
-    // exit();
 
     return $this->respond([
       'status' => 'Response Success',
@@ -95,7 +104,7 @@ class ApiAuth extends BaseController
 
     foreach ($getDataUsers as $loop1) { //CekUsernameDuplicate
       if ($loop1->username === $this->request->getVar('username')) {
-        return view('register', ['duplicateUsername' => 'Username ' . $usernameInput . ' sudah ada']);
+        return view('register', ['duplicateUsername' => 'Username ' . $usernameInput . ' has been used']);
         exit();
       }
     }
@@ -103,7 +112,7 @@ class ApiAuth extends BaseController
 
     $dataAdd = [ //Data Input From Input Form
       'username' => $usernameInput,
-      'password' => $passwordInput,
+      'password' => Hash::make($passwordInput),
       'created_at' => date('Y-m-d h:i:s'),
       'updated_at' => date('Y-m-d h:i:s'),
     ];

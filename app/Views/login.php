@@ -1,6 +1,10 @@
 <?php
 echo view('template-bootstrap5/head');
-echo view('template-bootstrap5/navbar');
+if (isset($messageLogin)) {
+  echo view('template-bootstrap5/navbar', $messageLogin);
+} else {
+  echo view('template-bootstrap5/navbar');
+}
 ?>
 
 <div class="container">
@@ -13,8 +17,8 @@ echo view('template-bootstrap5/navbar');
 
         <!-- NotifAddSuccessOrFailed -->
         <?php
-        if (isset($message)) {
-          echo '<div class="alert alert-danger" role="alert">' . $message . '</div>';
+        if (isset($messageFailedLogin)) {
+          echo '<div class="alert alert-danger" role="alert">' . $messageFailedLogin . '</div>';
         } elseif (isset($loginSucces)) {
           echo '<div class="alert alert-success" role="alert">' . $loginSucces . '</div>';
         }
@@ -23,7 +27,7 @@ echo view('template-bootstrap5/navbar');
 
         <div class="form-group mb-3">
           <label for="" class="mb-1">Username</label>
-          <input type="text" class="form-control" name="username" placeholder="Enter your username" value="<?= isset($validation) ? set_value('username') : '' ?>" <?= isset($validation) && display_error($validation, 'username') ? 'autofocus' : '' ?> <?= isset($loginSucces) ? 'autofocus' : '' ?>>
+          <input type="text" class="form-control" name="username" placeholder="Enter your username" value="<?= isset($validation) ? set_value('username') : '' ?>" <?= isset($validation) && display_error($validation, 'username') || isset($messageFailedLogin) ? 'autofocus' : '' ?> <?= isset($loginSucces) ? 'autofocus' : '' ?>>
           <span class="text-danger"><?= isset($validation) ? display_error($validation, 'username') : '' ?></span>
         </div>
         <div class="form-group mb-3">

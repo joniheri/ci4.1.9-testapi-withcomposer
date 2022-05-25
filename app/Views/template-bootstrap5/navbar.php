@@ -30,10 +30,17 @@
         </li>
       </ul>
       <form class="d-flex" role="search">
+        <button class="btn btn-outline-success me-2" type="submit">Search</button>
         <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-        <button class="btn btn-outline-success" type="submit">Search</button>
       </form>
+      <ul class="navbar-nav mb-2 mb-lg-0">
+        <?php if (isset($messageLogin)) : ?>
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="/auth/logout"><img src="<?= base_url('img/logout_wght400.png') ?>" alt="" style="height: 25px; width: auto;">Logout</a>
+          </li>
+        <?php endif ?>
+      </ul>
     </div>
   </div>
 </nav>
-<div style="margin-bottom: 70px;"></div>
+<div style="margin-bottom: 80px;"></div>

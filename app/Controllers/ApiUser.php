@@ -16,23 +16,23 @@ class ApiUsers extends BaseController
 
   public function index()
   {
-    $data = $this->ModelUsers->getData(); //Get data from ModelUsers
+    // $data = $this->ModelUsers->getData(); //Get data from ModelUsers
 
-    if ($data <= null) { //If data empty 
-      return $this->respond([
-        'status' => 'Response Failed',
-        'error' => 202,
-        'message' => 'Data is Empty',
-      ]);
-      exit();
-    }
+    // if ($data <= null) { //If data empty 
+    //   return $this->respond([
+    //     'status' => 'Response Failed',
+    //     'error' => 202,
+    //     'message' => 'Data is Empty',
+    //   ]);
+    //   exit();
+    // }
 
     return $this->respond([ //If data not Empty
       'status' => 'Response Success',
       'error' => null,
       'message' => [
         'success' => 'Get data Success',
-        'data' => $data,
+        'data' => 'This is data',
       ],
     ]);
   }

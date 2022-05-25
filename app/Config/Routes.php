@@ -45,12 +45,11 @@ $routes->get('login', 'Auth::login');
 $routes->get('register', 'Auth::register');
 $routes->get('processlogin', 'Auth::processLogin');
 $routes->get('processregister', 'Auth::processRegister');
-$routes->get('logout', 'Auth::processLogout');
 // End Route-Auth
 
 // Route-ApiAuth
-$routes->post('auth/processlogin', 'ApiAuth::processLogin');
-$routes->post('auth/processregister', 'ApiAuth::processRegister');
+$routes->post('authentication/login', 'ApiAuth::login');
+$routes->post('authentication/register', 'ApiAuth::register');
 $routes->post('auth/logout', 'ApiAuth::processLogout');
 // End Route-APiAuth
 
