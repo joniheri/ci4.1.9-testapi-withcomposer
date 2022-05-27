@@ -32,7 +32,7 @@ $routes->setAutoRoute(true);
 // We get a performance increase by specifying the default
 // route since we don't have to scan directories.
 
-$routes->get('/', 'Home::index');
+$routes->get('/', 'Home::index', ['filter' => 'AuthCheckFilter']);
 
 //  GroupRoute-Users
 $routes->get('users', 'Users::index');
@@ -53,6 +53,7 @@ $routes->group('authentication', function ($routes) {
     $routes->post('register', 'ApiAuth::register');
     $routes->post('login', 'ApiAuth::login');
     $routes->post('logout', 'ApiAuth::processLogout');
+    $routes->get('checlogin', 'ApiAuth::currentUserLogin');
 });
 // End Route-APiAuth
 

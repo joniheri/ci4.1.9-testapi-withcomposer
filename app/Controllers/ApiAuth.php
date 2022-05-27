@@ -5,6 +5,8 @@ namespace App\Controllers;
 use CodeIgniter\API\ResponseTrait;
 use App\Models\ModelUsers;
 use App\Libraries\Hash;
+use Firebase\JWT\JWT;
+use Firebase\JWT\Key;
 
 class ApiAuth extends BaseController
 {
@@ -123,20 +125,61 @@ class ApiAuth extends BaseController
     $getUsername = $this->ModelUsers->getUsername($dataInput); //Check username & password ada dan cocok di database
 
     if (!empty($getUsername) && password_verify($passwordInput, $getUsername[0]->password)) {
+
+      $secretKey = getenv('SECRET_KEY');
+
+      $issuer = 'THE_ISSUER';
+      $audience = 'THE_AUDIENCE';
+
+      $payload = [
+        'iat' => 1356999524,
+        'nbf' => 1357000000,
+        'user_id' => $getUsername[0]->id,
+        'fullname' => $getUsername[0]->fullname,
+        'password' => $getUsername[0]->password,
+      ];
+
+      $token = JWT::encode($payload, $secretKey, 'HS256');
       return $this->respond([
         'status' => 'Response Success',
         'message' => 'Login Success',
+        'dataUser' => $token,
       ]);
-      exit();
     } else {
       return $this->respond([
         'status' => 'Response Failed',
         'message' => 'Username or password si wrong',
       ]);
-      exit();
     }
   }
   // End Function Login
+  // ============================================
+
+
+  // Function Check
+  public function currentUserLogin()
+  {
+    $secretKey = getenv('SECRET_KEY');
+    $headerToken = $this->request->getServer('HTTP_AUTHORIZATION');
+
+    if (!$headerToken) return $this->failUnauthorized('Token Required'); //Check token must be required
+
+    $token = explode(' ', $headerToken)[1];
+
+    try {
+      $decoded = JWT::decode($token, new Key($secretKey, 'HS256'));
+      return $this->respond([
+        'status' => 'Respons Success',
+        'dataTokent' => $decoded,
+      ]);
+    } catch (\Throwable $th) {
+      return $this->fail([
+        'status' => 'Response Fail',
+        'message' => 'Invalid Token',
+      ]);
+    }
+  }
+  // End Function Logout
   // ============================================
 
   // Function logout
@@ -161,7 +204,6 @@ class ApiAuth extends BaseController
     return $this->respond([
       'status' => 'Response Success',
       'message' => 'Cek data Success',
-      'error' => null,
       'data' => [
         'data' => $data,
       ],

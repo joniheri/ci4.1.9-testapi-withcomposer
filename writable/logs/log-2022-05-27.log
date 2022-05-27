@@ -1,0 +1,160 @@
+CRITICAL - 2022-05-27 01:09:58 --> key() expects exactly 1 argument, 2 given
+#0 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\app\Controllers\ApiAuth.php(149): key('itGED2022#JonHe...', 'HS256')
+#1 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\ApiAuth->login()
+#2 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAuth))
+#3 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp-8.1.5\\...')
+#6 {main}
+CRITICAL - 2022-05-27 01:10:42 --> Too few arguments to function Firebase\JWT\JWT::encode(), 2 passed in C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\app\Controllers\ApiAuth.php on line 149 and at least 3 expected
+#0 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\app\Controllers\ApiAuth.php(149): Firebase\JWT\JWT::encode(Array, Object(Firebase\JWT\Key))
+#1 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\ApiAuth->login()
+#2 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAuth))
+#3 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp-8.1.5\\...')
+#6 {main}
+CRITICAL - 2022-05-27 01:10:45 --> Too few arguments to function Firebase\JWT\JWT::encode(), 2 passed in C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\app\Controllers\ApiAuth.php on line 149 and at least 3 expected
+#0 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\app\Controllers\ApiAuth.php(149): Firebase\JWT\JWT::encode(Array, Object(Firebase\JWT\Key))
+#1 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\ApiAuth->login()
+#2 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAuth))
+#3 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp-8.1.5\\...')
+#6 {main}
+CRITICAL - 2022-05-27 01:10:46 --> Too few arguments to function Firebase\JWT\JWT::encode(), 2 passed in C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\app\Controllers\ApiAuth.php on line 149 and at least 3 expected
+#0 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\app\Controllers\ApiAuth.php(149): Firebase\JWT\JWT::encode(Array, Object(Firebase\JWT\Key))
+#1 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\ApiAuth->login()
+#2 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAuth))
+#3 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp-8.1.5\\...')
+#6 {main}
+CRITICAL - 2022-05-27 01:11:33 --> Too few arguments to function Firebase\JWT\JWT::encode(), 2 passed in C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\app\Controllers\ApiAuth.php on line 149 and at least 3 expected
+#0 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\app\Controllers\ApiAuth.php(149): Firebase\JWT\JWT::encode(Array, Object(Firebase\JWT\Key))
+#1 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\ApiAuth->login()
+#2 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAuth))
+#3 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp-8.1.5\\...')
+#6 {main}
+CRITICAL - 2022-05-27 01:12:36 --> Too few arguments to function Firebase\JWT\JWT::encode(), 2 passed in C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\app\Controllers\ApiAuth.php on line 149 and at least 3 expected
+#0 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\app\Controllers\ApiAuth.php(149): Firebase\JWT\JWT::encode(Array, Object(Firebase\JWT\Key))
+#1 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\ApiAuth->login()
+#2 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAuth))
+#3 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp-8.1.5\\...')
+#6 {main}
+CRITICAL - 2022-05-27 01:13:05 --> Firebase\JWT\JWT::encode(): Argument #3 ($alg) must be of type string, array given, called in C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\app\Controllers\ApiAuth.php on line 149
+#0 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\app\Controllers\ApiAuth.php(149): Firebase\JWT\JWT::encode(Array, 'itGED2022#JonHe...', Array)
+#1 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\ApiAuth->login()
+#2 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAuth))
+#3 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp-8.1.5\\...')
+#6 {main}
+CRITICAL - 2022-05-27 01:17:18 --> Firebase\JWT\JWT::encode(): Argument #3 ($alg) must be of type string, array given, called in C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\app\Controllers\ApiAuth.php on line 149
+#0 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\app\Controllers\ApiAuth.php(149): Firebase\JWT\JWT::encode(Array, 'itGED2022#JonHe...', Array)
+#1 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\ApiAuth->login()
+#2 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAuth))
+#3 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp-8.1.5\\...')
+#6 {main}
+CRITICAL - 2022-05-27 01:17:24 --> Firebase\JWT\JWT::encode(): Argument #3 ($alg) must be of type string, array given, called in C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\app\Controllers\ApiAuth.php on line 148
+#0 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\app\Controllers\ApiAuth.php(148): Firebase\JWT\JWT::encode(Array, 'itGED2022#JonHe...', Array)
+#1 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\ApiAuth->login()
+#2 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAuth))
+#3 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp-8.1.5\\...')
+#6 {main}
+CRITICAL - 2022-05-27 01:19:03 --> Firebase\JWT\JWT::encode(): Argument #3 ($alg) must be of type string, array given, called in C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\app\Controllers\ApiAuth.php on line 150
+#0 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\app\Controllers\ApiAuth.php(150): Firebase\JWT\JWT::encode(Array, 'itGED2022#JonHe...', Array)
+#1 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\ApiAuth->login()
+#2 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAuth))
+#3 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp-8.1.5\\...')
+#6 {main}
+CRITICAL - 2022-05-27 01:19:33 --> Firebase\JWT\JWT::encode(): Argument #3 ($alg) must be of type string, array given, called in C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\app\Controllers\ApiAuth.php on line 150
+#0 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\app\Controllers\ApiAuth.php(150): Firebase\JWT\JWT::encode(Array, 'itGED2022#JonHe...', Array)
+#1 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\ApiAuth->login()
+#2 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAuth))
+#3 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp-8.1.5\\...')
+#6 {main}
+CRITICAL - 2022-05-27 01:20:24 --> Too few arguments to function Firebase\JWT\JWT::encode(), 2 passed in C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\app\Controllers\ApiAuth.php on line 150 and at least 3 expected
+#0 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\app\Controllers\ApiAuth.php(150): Firebase\JWT\JWT::encode(Array, Object(Firebase\JWT\Key))
+#1 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\ApiAuth->login()
+#2 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAuth))
+#3 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp-8.1.5\\...')
+#6 {main}
+CRITICAL - 2022-05-27 01:24:45 --> Object of class CodeIgniter\HTTP\IncomingRequest could not be converted to string
+#0 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\Filters\Filters.php(173): App\Filters\AuthCheckFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#1 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('/', 'before')
+#2 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp-8.1.5\\...')
+#5 {main}
+CRITICAL - 2022-05-27 01:38:40 --> Too few arguments to function Firebase\JWT\JWT::encode(), 2 passed in C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\app\Controllers\ApiAuth.php on line 146 and at least 3 expected
+#0 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\app\Controllers\ApiAuth.php(146): Firebase\JWT\JWT::encode(Array, 'itGED2022#JonHe...')
+#1 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\ApiAuth->login()
+#2 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAuth))
+#3 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp-8.1.5\\...')
+#6 {main}
+CRITICAL - 2022-05-27 01:38:41 --> Too few arguments to function Firebase\JWT\JWT::encode(), 2 passed in C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\app\Controllers\ApiAuth.php on line 146 and at least 3 expected
+#0 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\app\Controllers\ApiAuth.php(146): Firebase\JWT\JWT::encode(Array, 'itGED2022#JonHe...')
+#1 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\ApiAuth->login()
+#2 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAuth))
+#3 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp-8.1.5\\...')
+#6 {main}
+CRITICAL - 2022-05-27 01:38:42 --> Too few arguments to function Firebase\JWT\JWT::encode(), 2 passed in C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\app\Controllers\ApiAuth.php on line 146 and at least 3 expected
+#0 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\app\Controllers\ApiAuth.php(146): Firebase\JWT\JWT::encode(Array, 'itGED2022#JonHe...')
+#1 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\ApiAuth->login()
+#2 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAuth))
+#3 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp-8.1.5\\...')
+#6 {main}
+CRITICAL - 2022-05-27 01:38:58 --> Too few arguments to function Firebase\JWT\JWT::encode(), 2 passed in C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\app\Controllers\ApiAuth.php on line 144 and at least 3 expected
+#0 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\app\Controllers\ApiAuth.php(144): Firebase\JWT\JWT::encode(Array, 'itGED2022#JonHe...')
+#1 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\ApiAuth->login()
+#2 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAuth))
+#3 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp-8.1.5\\...')
+#6 {main}
+CRITICAL - 2022-05-27 01:38:59 --> Too few arguments to function Firebase\JWT\JWT::encode(), 2 passed in C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\app\Controllers\ApiAuth.php on line 144 and at least 3 expected
+#0 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\app\Controllers\ApiAuth.php(144): Firebase\JWT\JWT::encode(Array, 'itGED2022#JonHe...')
+#1 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\ApiAuth->login()
+#2 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAuth))
+#3 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp-8.1.5\\...')
+#6 {main}
+CRITICAL - 2022-05-27 02:48:46 --> "kid" empty, unable to lookup correct key
+#0 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\firebase\php-jwt\src\JWT.php(128): Firebase\JWT\JWT::getKey('itGED2022#JonHe...', NULL)
+#1 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\app\Controllers\ApiAuth.php(164): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1Q...', 'itGED2022#JonHe...', Array)
+#2 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\ApiAuth->currentUserLogin()
+#3 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAuth))
+#4 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp-8.1.5\\...')
+#7 {main}
+CRITICAL - 2022-05-27 03:00:41 --> Undefined variable $decoded
+#0 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\app\Controllers\ApiAuth.php(165): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp-8.1.5\\...', 165)
+#1 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\ApiAuth->currentUserLogin()
+#2 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiAuth))
+#3 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp-8.1.5\\...')
+#6 {main}

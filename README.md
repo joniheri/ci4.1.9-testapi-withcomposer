@@ -26,7 +26,8 @@
 - Video tutorial : https://www.youtube.com/watch?v=vKFcpQo-h-Q&t=43s
 - File yang ditambahkan untuk cek "validasi input" ada di directory ./app/Helpers/Form_helper.php
 - File yang ditambahkan untuk "hash password" ada di directory ./app/Libraries/Hash.php
-- File yang ditambahkan untuk "filter" ada di directory ./app/Libraries/AuthCheckFilter.php
+- Packeage yang diinstall yaitu JWT dengan mengetikkan di terminal "composer require firebase/php-jwt"
+- File yang ditambahkan untuk "filter" ada di directory ./app/Filters/AuthCheckFilter.php untuk memberi batasan akses di semua url atau API
 
 # DOCUMENTASION BY JON HERI
 
