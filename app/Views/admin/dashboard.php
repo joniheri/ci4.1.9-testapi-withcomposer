@@ -1,20 +1,18 @@
 <?php
 echo view('template-bootstrap5/head');
 echo view('template-bootstrap5/navbar');
+
 ?>
 
 <div class="container">
   <!-- NotifAddSuccessOrFailed -->
   <?php
-  if (isset($message)) {
-    echo '<div class="alert alert-success" role="alert">' . $message . '</div>';
+  if (isset($dataMessage) && !empty($dataMessage['message'])) {
+    echo '<div class="alert alert-success" role="alert">' . $dataMessage['message'] . '</div>';
   }
   ?>
   <!-- End NotifAddSuccessOrFailed -->
-  <textarea name="" id="" rows="5" style="width: 100%;">
-    <? //= $token; 
-    ?>
-  </textarea>
+  <h1>Welcome <?= isset($dataUser['fullname']) && empty($dataUser['fullname']) ? $dataUser['fullname'] : '' ?>, This is Dashboard Page </h1>
 </div>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>

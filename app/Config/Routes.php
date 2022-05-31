@@ -36,7 +36,7 @@ $routes->get('/', 'Home::index');
 
 //  GroupRoute-Users
 $routes->group('/', function ($routes) {
-    $routes->get('/users', 'Users::index', ['filter' => 'Authorization']);
+    $routes->get('/users', 'Users::index', ['filter' => 'AuthorizationSecond']);
     $routes->get('users/index', 'Users::index', ['filter' => 'Authorization']);
 });
 // End GroupRoute-Users
@@ -47,11 +47,15 @@ $routes->group('/', function ($routes) {
     $routes->get('login', 'Auth::login');
     $routes->get('processlogin', 'Auth::processLogin');
     $routes->get('processregister', 'Auth::processRegister');
-    $routes->get('dashboarduser', 'Auth::dashboardUser', ['filter' => 'Authorization']);
-    $routes->post('logout', 'Auth::processLogout');
+    $routes->get('dashboarduser', 'Auth::dashboardUser', ['filter' => 'AuthorizationSecond']);
+    $routes->get('logout', 'Auth::logout');
 
     $routes->get('auth/register', 'Auth::register');
     $routes->get('auth/login', 'Auth::login');
+    $routes->get('auth/processlogin', 'Auth::processLogin');
+    $routes->get('auth/processregister', 'Auth::processRegister');
+    $routes->get('auth/dashboarduser', 'Auth::dashboardUser', ['filter' => 'Authorization']);
+    $routes->get('auth/logout', 'Auth::logout');
 });
 // End Route-Auth
 

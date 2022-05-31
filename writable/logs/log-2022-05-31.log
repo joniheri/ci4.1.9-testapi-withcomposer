@@ -1,0 +1,581 @@
+CRITICAL - 2022-05-31 01:23:04 --> Call to a member function set_flashdata() on null
+#0 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Auth->processLogin()
+#1 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#2 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp-8.1.5\\...')
+#5 {main}
+CRITICAL - 2022-05-31 01:24:24 --> Call to undefined method CodeIgniter\Session\Session::set_flashdata()
+#0 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Auth->processLogin()
+#1 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#2 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp-8.1.5\\...')
+#5 {main}
+CRITICAL - 2022-05-31 01:24:28 --> Call to undefined method CodeIgniter\Session\Session::set_flashdata()
+#0 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Auth->processLogin()
+#1 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#2 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp-8.1.5\\...')
+#5 {main}
+CRITICAL - 2022-05-31 01:33:31 --> Trying to access array offset on value of type null
+#0 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\app\Controllers\Auth.php(178): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp-8.1.5\\...', 178)
+#1 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Auth->dashboardUser()
+#2 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#3 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp-8.1.5\\...')
+#6 {main}
+CRITICAL - 2022-05-31 01:33:37 --> Trying to access array offset on value of type null
+#0 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\app\Controllers\Auth.php(178): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp-8.1.5\\...', 178)
+#1 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Auth->dashboardUser()
+#2 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#3 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp-8.1.5\\...')
+#6 {main}
+CRITICAL - 2022-05-31 01:33:38 --> Trying to access array offset on value of type null
+#0 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\app\Controllers\Auth.php(178): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp-8.1.5\\...', 178)
+#1 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Auth->dashboardUser()
+#2 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#3 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp-8.1.5\\...')
+#6 {main}
+CRITICAL - 2022-05-31 01:33:38 --> Trying to access array offset on value of type null
+#0 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\app\Controllers\Auth.php(178): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp-8.1.5\\...', 178)
+#1 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Auth->dashboardUser()
+#2 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#3 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp-8.1.5\\...')
+#6 {main}
+CRITICAL - 2022-05-31 01:33:38 --> Trying to access array offset on value of type null
+#0 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\app\Controllers\Auth.php(178): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp-8.1.5\\...', 178)
+#1 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Auth->dashboardUser()
+#2 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#3 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp-8.1.5\\...')
+#6 {main}
+CRITICAL - 2022-05-31 01:33:38 --> Trying to access array offset on value of type null
+#0 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\app\Controllers\Auth.php(178): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp-8.1.5\\...', 178)
+#1 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Auth->dashboardUser()
+#2 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#3 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp-8.1.5\\...')
+#6 {main}
+CRITICAL - 2022-05-31 01:33:38 --> Trying to access array offset on value of type null
+#0 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\app\Controllers\Auth.php(178): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp-8.1.5\\...', 178)
+#1 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Auth->dashboardUser()
+#2 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#3 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp-8.1.5\\...')
+#6 {main}
+CRITICAL - 2022-05-31 01:33:50 --> Attempt to read property "dataUser" on null
+#0 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\app\Controllers\Auth.php(178): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp-8.1.5\\...', 178)
+#1 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Auth->dashboardUser()
+#2 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#3 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp-8.1.5\\...')
+#6 {main}
+CRITICAL - 2022-05-31 01:33:52 --> Attempt to read property "dataUser" on null
+#0 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\app\Controllers\Auth.php(178): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp-8.1.5\\...', 178)
+#1 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Auth->dashboardUser()
+#2 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#3 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp-8.1.5\\...')
+#6 {main}
+CRITICAL - 2022-05-31 01:34:04 --> Trying to access array offset on value of type null
+#0 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\app\Controllers\Auth.php(178): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp-8.1.5\\...', 178)
+#1 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Auth->dashboardUser()
+#2 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#3 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp-8.1.5\\...')
+#6 {main}
+CRITICAL - 2022-05-31 01:34:05 --> Trying to access array offset on value of type null
+#0 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\app\Controllers\Auth.php(178): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp-8.1.5\\...', 178)
+#1 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Auth->dashboardUser()
+#2 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#3 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp-8.1.5\\...')
+#6 {main}
+CRITICAL - 2022-05-31 01:34:05 --> Trying to access array offset on value of type null
+#0 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\app\Controllers\Auth.php(178): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp-8.1.5\\...', 178)
+#1 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Auth->dashboardUser()
+#2 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#3 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp-8.1.5\\...')
+#6 {main}
+CRITICAL - 2022-05-31 01:34:05 --> Trying to access array offset on value of type null
+#0 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\app\Controllers\Auth.php(178): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp-8.1.5\\...', 178)
+#1 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Auth->dashboardUser()
+#2 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#3 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp-8.1.5\\...')
+#6 {main}
+CRITICAL - 2022-05-31 01:34:06 --> Trying to access array offset on value of type null
+#0 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\app\Controllers\Auth.php(178): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp-8.1.5\\...', 178)
+#1 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Auth->dashboardUser()
+#2 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#3 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp-8.1.5\\...')
+#6 {main}
+CRITICAL - 2022-05-31 01:34:06 --> Trying to access array offset on value of type null
+#0 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\app\Controllers\Auth.php(178): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp-8.1.5\\...', 178)
+#1 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Auth->dashboardUser()
+#2 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#3 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp-8.1.5\\...')
+#6 {main}
+CRITICAL - 2022-05-31 01:35:00 --> Undefined array key 0
+#0 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\app\Controllers\Auth.php(178): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp-8.1.5\\...', 178)
+#1 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Auth->dashboardUser()
+#2 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#3 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp-8.1.5\\...')
+#6 {main}
+CRITICAL - 2022-05-31 01:35:19 --> Trying to access array offset on value of type null
+#0 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\app\Controllers\Auth.php(178): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp-8.1.5\\...', 178)
+#1 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Auth->dashboardUser()
+#2 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#3 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp-8.1.5\\...')
+#6 {main}
+CRITICAL - 2022-05-31 01:35:28 --> Trying to access array offset on value of type null
+#0 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\app\Controllers\Auth.php(178): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp-8.1.5\\...', 178)
+#1 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Auth->dashboardUser()
+#2 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#3 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp-8.1.5\\...')
+#6 {main}
+CRITICAL - 2022-05-31 01:46:25 --> Undefined variable $dataUser
+#0 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\app\Views\admin\dashboard.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp-8.1.5\\...', 14)
+#1 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp-8.1.5\\...')
+#2 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('admin/dashboard', Array, true)
+#4 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\app\Controllers\Auth.php(181): view('admin/dashboard', Array)
+#5 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Auth->dashboardUser()
+#6 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#7 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp-8.1.5\\...')
+#10 {main}
+CRITICAL - 2022-05-31 01:46:42 --> Undefined variable $dataUser
+#0 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\app\Views\admin\dashboard.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp-8.1.5\\...', 14)
+#1 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp-8.1.5\\...')
+#2 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('admin/dashboard', Array, true)
+#4 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\app\Controllers\Auth.php(181): view('admin/dashboard', Array)
+#5 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Auth->dashboardUser()
+#6 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#7 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp-8.1.5\\...')
+#10 {main}
+CRITICAL - 2022-05-31 01:47:36 --> Undefined array key "username"
+#0 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\app\Views\admin\dashboard.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp-8.1.5\\...', 14)
+#1 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp-8.1.5\\...')
+#2 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('admin/dashboard', Array, true)
+#4 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\app\Controllers\Auth.php(183): view('admin/dashboard', Array)
+#5 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Auth->dashboardUser()
+#6 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#7 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp-8.1.5\\...')
+#10 {main}
+CRITICAL - 2022-05-31 01:47:45 --> Undefined array key "username"
+#0 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\app\Views\admin\dashboard.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp-8.1.5\\...', 14)
+#1 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp-8.1.5\\...')
+#2 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('admin/dashboard', Array, true)
+#4 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\app\Controllers\Auth.php(183): view('admin/dashboard', Array)
+#5 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Auth->dashboardUser()
+#6 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#7 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp-8.1.5\\...')
+#10 {main}
+CRITICAL - 2022-05-31 01:48:18 --> Undefined array key "username"
+#0 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\app\Views\admin\dashboard.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp-8.1.5\\...', 14)
+#1 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp-8.1.5\\...')
+#2 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('admin/dashboard', Array, true)
+#4 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\app\Controllers\Auth.php(184): view('admin/dashboard', Array)
+#5 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Auth->dashboardUser()
+#6 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#7 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp-8.1.5\\...')
+#10 {main}
+CRITICAL - 2022-05-31 01:48:19 --> Undefined array key "username"
+#0 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\app\Views\admin\dashboard.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp-8.1.5\\...', 14)
+#1 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp-8.1.5\\...')
+#2 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('admin/dashboard', Array, true)
+#4 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\app\Controllers\Auth.php(184): view('admin/dashboard', Array)
+#5 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Auth->dashboardUser()
+#6 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#7 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp-8.1.5\\...')
+#10 {main}
+CRITICAL - 2022-05-31 01:48:20 --> Undefined array key "username"
+#0 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\app\Views\admin\dashboard.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp-8.1.5\\...', 14)
+#1 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp-8.1.5\\...')
+#2 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('admin/dashboard', Array, true)
+#4 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\app\Controllers\Auth.php(184): view('admin/dashboard', Array)
+#5 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Auth->dashboardUser()
+#6 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#7 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp-8.1.5\\...')
+#10 {main}
+CRITICAL - 2022-05-31 01:48:20 --> Undefined array key "username"
+#0 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\app\Views\admin\dashboard.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp-8.1.5\\...', 14)
+#1 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp-8.1.5\\...')
+#2 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('admin/dashboard', Array, true)
+#4 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\app\Controllers\Auth.php(184): view('admin/dashboard', Array)
+#5 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Auth->dashboardUser()
+#6 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#7 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp-8.1.5\\...')
+#10 {main}
+CRITICAL - 2022-05-31 01:48:20 --> Undefined array key "username"
+#0 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\app\Views\admin\dashboard.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp-8.1.5\\...', 14)
+#1 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp-8.1.5\\...')
+#2 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('admin/dashboard', Array, true)
+#4 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\app\Controllers\Auth.php(184): view('admin/dashboard', Array)
+#5 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Auth->dashboardUser()
+#6 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#7 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp-8.1.5\\...')
+#10 {main}
+CRITICAL - 2022-05-31 01:48:42 --> Undefined variable $token
+#0 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\app\Views\admin\dashboard.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp-8.1.5\\...', 16)
+#1 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp-8.1.5\\...')
+#2 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('admin/dashboard', Array, true)
+#4 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\app\Controllers\Auth.php(185): view('admin/dashboard', Array)
+#5 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Auth->dashboardUser()
+#6 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#7 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp-8.1.5\\...')
+#10 {main}
+CRITICAL - 2022-05-31 02:32:44 --> Call to a member function get() on null
+#0 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Auth->dashboardUser()
+#1 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#2 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp-8.1.5\\...')
+#5 {main}
+CRITICAL - 2022-05-31 02:32:57 --> Call to a member function set() on null
+#0 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Auth->processLogin()
+#1 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#2 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp-8.1.5\\...')
+#5 {main}
+CRITICAL - 2022-05-31 02:34:17 --> Call to a member function set() on null
+#0 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Auth->processLogin()
+#1 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#2 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp-8.1.5\\...')
+#5 {main}
+CRITICAL - 2022-05-31 02:34:29 --> Call to a member function set() on null
+#0 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Auth->processLogin()
+#1 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#2 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp-8.1.5\\...')
+#5 {main}
+CRITICAL - 2022-05-31 02:38:30 --> Object of class CodeIgniter\HTTP\RedirectResponse could not be converted to string
+#0 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\View\View.php(210): include()
+#1 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('admin/dashboard', Array, true)
+#3 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\app\Controllers\Auth.php(184): view('admin/dashboard', Array)
+#4 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Auth->dashboardUser()
+#5 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#6 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp-8.1.5\\...')
+#9 {main}
+CRITICAL - 2022-05-31 02:42:33 --> view(): Argument #2 ($data) must be of type array, null given, called in C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\app\Controllers\Auth.php on line 173
+#0 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\app\Controllers\Auth.php(173): view('admin/dashboard', NULL)
+#1 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Auth->dashboardUser()
+#2 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#3 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp-8.1.5\\...')
+#6 {main}
+CRITICAL - 2022-05-31 02:50:17 --> view(): Argument #2 ($data) must be of type array, null given, called in C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\app\Controllers\Auth.php on line 173
+#0 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\app\Controllers\Auth.php(173): view('admin/dashboard', NULL)
+#1 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Auth->dashboardUser()
+#2 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#3 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp-8.1.5\\...')
+#6 {main}
+CRITICAL - 2022-05-31 03:16:56 --> view(): Argument #2 ($data) must be of type array, null given, called in C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\app\Controllers\Auth.php on line 174
+#0 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\app\Controllers\Auth.php(174): view('admin/dashboard', NULL)
+#1 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Auth->dashboardUser()
+#2 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#3 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp-8.1.5\\...')
+#6 {main}
+CRITICAL - 2022-05-31 03:18:16 --> view(): Argument #2 ($data) must be of type array, null given, called in C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\app\Controllers\Auth.php on line 174
+#0 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\app\Controllers\Auth.php(174): view('admin/dashboard', NULL)
+#1 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Auth->dashboardUser()
+#2 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#3 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp-8.1.5\\...')
+#6 {main}
+CRITICAL - 2022-05-31 03:18:55 --> view(): Argument #2 ($data) must be of type array, null given, called in C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\app\Controllers\Auth.php on line 174
+#0 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\app\Controllers\Auth.php(174): view('admin/dashboard', NULL)
+#1 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Auth->dashboardUser()
+#2 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#3 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp-8.1.5\\...')
+#6 {main}
+CRITICAL - 2022-05-31 03:18:57 --> view(): Argument #2 ($data) must be of type array, null given, called in C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\app\Controllers\Auth.php on line 174
+#0 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\app\Controllers\Auth.php(174): view('admin/dashboard', NULL)
+#1 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Auth->dashboardUser()
+#2 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#3 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp-8.1.5\\...')
+#6 {main}
+CRITICAL - 2022-05-31 03:29:42 --> view(): Argument #2 ($data) must be of type array, null given, called in C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\app\Controllers\Auth.php on line 174
+#0 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\app\Controllers\Auth.php(174): view('admin/dashboard', NULL)
+#1 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Auth->dashboardUser()
+#2 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#3 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp-8.1.5\\...')
+#6 {main}
+CRITICAL - 2022-05-31 03:30:26 --> view(): Argument #2 ($data) must be of type array, null given, called in C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\app\Controllers\Auth.php on line 174
+#0 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\app\Controllers\Auth.php(174): view('admin/dashboard', NULL)
+#1 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Auth->dashboardUser()
+#2 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#3 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp-8.1.5\\...')
+#6 {main}
+CRITICAL - 2022-05-31 03:30:55 --> CodeIgniter\Router\RouteCollection::get(): Argument #3 ($options) must be of type ?array, string given, called in C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\app\Config\Routes.php on line 50
+#0 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\app\Config\Routes.php(50): CodeIgniter\Router\RouteCollection->get('dashboarduser', Array, 'Auth::dashboard...')
+#1 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\Router\RouteCollection.php(607): CodeIgniter\CodeIgniter->Config\{closure}(Object(CodeIgniter\Router\RouteCollection))
+#2 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\app\Config\Routes.php(59): CodeIgniter\Router\RouteCollection->group('/', Object(Closure))
+#3 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(713): require('C:\\xampp-8.1.5\\...')
+#4 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#5 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp-8.1.5\\...')
+#8 {main}
+CRITICAL - 2022-05-31 03:31:10 --> view(): Argument #2 ($data) must be of type array, null given, called in C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\app\Controllers\Auth.php on line 174
+#0 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\app\Controllers\Auth.php(174): view('admin/dashboard', NULL)
+#1 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Auth->dashboardUser()
+#2 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#3 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp-8.1.5\\...')
+#6 {main}
+CRITICAL - 2022-05-31 03:33:06 --> view(): Argument #2 ($data) must be of type array, null given, called in C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\app\Controllers\Auth.php on line 174
+#0 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\app\Controllers\Auth.php(174): view('admin/dashboard', NULL)
+#1 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Auth->dashboardUser()
+#2 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#3 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp-8.1.5\\...')
+#6 {main}
+CRITICAL - 2022-05-31 03:40:23 --> Array to string conversion
+#0 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\app\Views\login.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'C:\\xampp-8.1.5\\...', 10)
+#1 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp-8.1.5\\...')
+#2 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('login', Array, true)
+#4 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\app\Controllers\Auth.php(22): view('login')
+#5 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Auth->login()
+#6 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#7 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp-8.1.5\\...')
+#10 {main}
+CRITICAL - 2022-05-31 04:02:22 --> Undefined variable $headerHttp
+#0 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\app\Filters\AuthorizationSecond.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp-8.1.5\\...', 33)
+#1 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\Filters\Filters.php(173): App\Filters\AuthorizationSecond->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#2 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('dashboarduser', 'before')
+#3 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp-8.1.5\\...')
+#6 {main}
+CRITICAL - 2022-05-31 04:11:17 --> Undefined array key "datauser"
+#0 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\app\Filters\AuthorizationSecond.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp-8.1.5\\...', 30)
+#1 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\Filters\Filters.php(173): App\Filters\AuthorizationSecond->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#2 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('dashboarduser', 'before')
+#3 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp-8.1.5\\...')
+#6 {main}
+CRITICAL - 2022-05-31 04:12:39 --> Attempt to read property "datauser" on array
+#0 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\app\Filters\AuthorizationSecond.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp-8.1.5\\...', 30)
+#1 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\Filters\Filters.php(173): App\Filters\AuthorizationSecond->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#2 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('dashboarduser', 'before')
+#3 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp-8.1.5\\...')
+#6 {main}
+CRITICAL - 2022-05-31 04:13:53 --> Undefined array key "datauser"
+#0 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\app\Filters\AuthorizationSecond.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp-8.1.5\\...', 30)
+#1 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\Filters\Filters.php(173): App\Filters\AuthorizationSecond->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#2 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('dashboarduser', 'before')
+#3 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp-8.1.5\\...')
+#6 {main}
+CRITICAL - 2022-05-31 04:15:26 --> Attempt to read property "dataUser" on array
+#0 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\app\Filters\AuthorizationSecond.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp-8.1.5\\...', 30)
+#1 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\Filters\Filters.php(173): App\Filters\AuthorizationSecond->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#2 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('dashboarduser', 'before')
+#3 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp-8.1.5\\...')
+#6 {main}
+CRITICAL - 2022-05-31 04:15:45 --> Undefined array key "dataUser"
+#0 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\app\Filters\AuthorizationSecond.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp-8.1.5\\...', 30)
+#1 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\Filters\Filters.php(173): App\Filters\AuthorizationSecond->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#2 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('dashboarduser', 'before')
+#3 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp-8.1.5\\...')
+#6 {main}
+CRITICAL - 2022-05-31 04:19:19 --> Attempt to read property "dataUser" on array
+#0 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\app\Filters\AuthorizationSecond.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp-8.1.5\\...', 30)
+#1 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\Filters\Filters.php(173): App\Filters\AuthorizationSecond->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#2 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('dashboarduser', 'before')
+#3 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp-8.1.5\\...')
+#6 {main}
+CRITICAL - 2022-05-31 04:25:30 --> Undefined variable $dataUser
+#0 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\app\Views\admin\dashboard.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp-8.1.5\\...', 14)
+#1 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp-8.1.5\\...')
+#2 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('admin/dashboard', Array, true)
+#4 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\app\Controllers\Auth.php(180): view('admin/dashboard', Array)
+#5 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Auth->dashboardUser()
+#6 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#7 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp-8.1.5\\...')
+#10 {main}
+CRITICAL - 2022-05-31 04:26:57 --> Undefined variable $dataUser
+#0 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\app\Views\admin\dashboard.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp-8.1.5\\...', 14)
+#1 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp-8.1.5\\...')
+#2 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('admin/dashboard', Array, true)
+#4 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\app\Controllers\Auth.php(181): view('admin/dashboard', Array)
+#5 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Auth->dashboardUser()
+#6 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#7 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp-8.1.5\\...')
+#10 {main}
+CRITICAL - 2022-05-31 04:28:03 --> Undefined variable $dataUser
+#0 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\app\Views\admin\dashboard.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp-8.1.5\\...', 14)
+#1 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp-8.1.5\\...')
+#2 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('admin/dashboard', Array, true)
+#4 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\app\Controllers\Auth.php(181): view('admin/dashboard', Array)
+#5 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Auth->dashboardUser()
+#6 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#7 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp-8.1.5\\...')
+#10 {main}
+CRITICAL - 2022-05-31 04:42:48 --> Undefined variable $session
+#0 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\app\Views\admin\dashboard.php(4): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp-8.1.5\\...', 4)
+#1 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp-8.1.5\\...')
+#2 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('admin/dashboard', Array, true)
+#4 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\app\Controllers\Auth.php(185): view('admin/dashboard', Array)
+#5 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Auth->dashboardUser()
+#6 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#7 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp-8.1.5\\...')
+#10 {main}
+CRITICAL - 2022-05-31 04:43:38 --> Array to string conversion
+#0 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\app\Views\admin\dashboard.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'C:\\xampp-8.1.5\\...', 13)
+#1 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp-8.1.5\\...')
+#2 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('admin/dashboard', Array, true)
+#4 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\app\Controllers\Auth.php(185): view('admin/dashboard', Array)
+#5 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Auth->dashboardUser()
+#6 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#7 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp-8.1.5\\...')
+#10 {main}
+CRITICAL - 2022-05-31 04:51:00 --> Attempt to read property "status" on array
+#0 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\app\Controllers\Auth.php(191): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp-8.1.5\\...', 191)
+#1 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Auth->dashboardUser()
+#2 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#3 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp-8.1.5\\...')
+#6 {main}
+CRITICAL - 2022-05-31 04:55:05 --> Undefined variable $username
+#0 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\app\Views\admin\dashboard.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp-8.1.5\\...', 15)
+#1 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp-8.1.5\\...')
+#2 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('admin/dashboard', Array, true)
+#4 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\app\Controllers\Auth.php(191): view('admin/dashboard', Array)
+#5 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Auth->dashboardUser()
+#6 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#7 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp-8.1.5\\...')
+#10 {main}
+CRITICAL - 2022-05-31 04:57:27 --> Undefined variable $message
+#0 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\app\Views\admin\dashboard.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp-8.1.5\\...', 11)
+#1 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp-8.1.5\\...')
+#2 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('admin/dashboard', Array, true)
+#4 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\app\Controllers\Auth.php(194): view('admin/dashboard', Array)
+#5 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Auth->dashboardUser()
+#6 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#7 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp-8.1.5\\...')
+#10 {main}
+CRITICAL - 2022-05-31 04:59:32 --> Call to undefined method CodeIgniter\Session\Session::unset()
+#0 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Auth->dashboardUser()
+#1 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#2 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp-8.1.5\\...')
+#5 {main}

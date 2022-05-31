@@ -1,10 +1,11 @@
 <?php
 echo view('template-bootstrap5/head');
-if (isset($messageLogin)) {
-  echo view('template-bootstrap5/navbar', $messageLogin);
+if (isset($message)) {
+  echo view('template-bootstrap5/navbar', $message);
 } else {
   echo view('template-bootstrap5/navbar');
 }
+
 ?>
 
 <div class="container">
@@ -17,7 +18,7 @@ if (isset($messageLogin)) {
 
         <!-- NotifAddSuccessOrFailed -->
         <?php
-        if (isset($messageFailedLogin)) {
+        if (isset($messa)) {
           echo '<div class="alert alert-danger" role="alert">' . $messageFailedLogin . '</div>';
         } elseif (isset($loginSucces)) {
           echo '<div class="alert alert-success" role="alert">' . $loginSucces . '</div>';
@@ -39,7 +40,7 @@ if (isset($messageLogin)) {
           <button class="btn btn-primary w-100" type="submit">Sign In</button>
         </div>
         <div class="form-group  mb-3">
-          <a href="/register" style="text-decoration: none;">Don't have an accout, click here</a>
+          <a href="auth/register" style="text-decoration: none;">Don't have an accout, click here</a>
         </div>
       </form>
     </div>

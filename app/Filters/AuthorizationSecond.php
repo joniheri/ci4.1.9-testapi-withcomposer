@@ -5,20 +5,28 @@ namespace App\Filters;
 use CodeIgniter\Filters\FilterInterface;
 use CodeIgniter\HTTP\RequestInterface;
 use CodeIgniter\HTTP\ResponseInterface;
-use CodeIgniter\API\ResponseTrait;
 use Firebase\JWT\JWT;
 use Firebase\JWT\Key;
 use Config\Services;
 
-class Authorization implements FilterInterface
+class AuthorizationSecond implements FilterInterface
 {
 
   public function before(RequestInterface $request, $arguments = null)
   {
 
+    $session = session();
+    $sessionUser = $session->get('sessionUser');
+    $sessionMessage = $session->get('sessionMessage');
+
+    if (!isset($sessionUser)) {
+      return redirect()->route('logout');
+      exit();
+    }
 
     $headerHttp = $request->getServer('HTTP_AUTHORIZATION');
-    $tokenFromSession = 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjEzNTY5OTk1MjQsIm5iZiI6MTM1NzAwMDAwMCwidXNlcl9pZCI6IjEiLCJmdWxsbmFtZSI6IkpvbiBIZXJpIiwicGFzc3dvcmQiOiIkMnkkMTAkWTFmQVNNcTZydDhOc2tyUUp0b3N5Lk14M09GMFRPNmVIWFFkdVRkTVd1OG5oNTRnaVRrdmUifQ.jM9bWQE0vMgTQBdgHklFn7fBNrdA3mv-jV072MGaagM';
+    $tokenFromSession = $sessionUser['token'];
+    unset($_SESSION['counter']);
 
     if (!empty($headerHttp)) {
       try {

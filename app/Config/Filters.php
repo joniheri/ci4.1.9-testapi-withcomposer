@@ -27,6 +27,7 @@ class Filters extends BaseConfig
         // AddByJonHeri
         'AuthCheckFilter'   => \App\Filters\AuthCheckFilter::class,
         'Authorization'   => \App\Filters\Authorization::class,
+        'AuthorizationSecond'   => \App\Filters\AuthorizationSecond::class,
         'Cors'              => \App\Filters\Cors::class,
         // ENd AddByJonHeri
     ];

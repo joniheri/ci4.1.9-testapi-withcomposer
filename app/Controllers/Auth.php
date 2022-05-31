@@ -151,43 +151,52 @@ class Auth extends BaseController
       'password' => $getUsername[0]->password,
     ];
     $token = JWT::encode($payload, $secretKey, 'HS256');
-    $dataSuccessLogin = [
+    $dataSessionUser = [
+      'token' => $token, 'iat' => 1356999524,
+      'nbf' => 1357000000,
+      'user_id' => $getUsername[0]->id,
+      'username' => $getUsername[0]->username,
+      'fullname' => $getUsername[0]->fullname,
+      'password' => $getUsername[0]->password,
+    ];
+    $dataSessionMessage = [
       'status' => 'Response Success',
       'message' => 'Login Success',
-      'token' => $token,
-      'dataUser' => $payload,
     ];
-    echo "  
-      <script>
-        localStorage.setItem('token', '" . $token . "');
-      </script>
-    ";
-    $this->session->set_flashdata('data', 'jkdfkjasdf');
-    redirect('auth/dashboarduser');
-    // return redirect()->to('dashboarduser');
-    // return view('admin/dashboard', $dataSuccessLogin);
+
+    $session = session();
+    $session->set('sessionUser', $dataSessionUser);
+    $session->set('sessionMessage', $dataSessionMessage);
+
+    return redirect()->route('dashboarduser');
     // End LoginSuccess
 
   }
 
   public function dashboardUser()
   {
-    $dataGet = $this->session->flashdata('data');
-    print_r($dataGet);
-    exit();
+    $session = session();
+    $sessionMessage = $session->get('sessionMessage');
+    $sessionUser = $session->get('sessionUser');
 
-    return view('admin/dashboard');
+    if (!isset($sessionUser)) {
+      return redirect()->route('login');
+    }
+
+    $data = [
+      'dataMessage' => $sessionMessage,
+      'dataUser' => $sessionUser,
+    ];
+
+    unset($_SESSION['sessionMessage']);
+    return view('admin/dashboard', $data);
   }
 
   public function logout()
   {
-    $dataSuccess = [
-      'messageLogout' => 'Logout Success',
-      'usernameSuccess' => '',
-      'passwordSuccess' => '',
-    ];
-    // return view('login', $dataSuccess);
-    return redirect('login');
+    $session = session();
+    $session->destroy();
+    return redirect()->route('login');
   }
 
   public function template()
