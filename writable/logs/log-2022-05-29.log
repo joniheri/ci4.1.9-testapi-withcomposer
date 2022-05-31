@@ -1,0 +1,70 @@
+CRITICAL - 2022-05-29 20:28:31 --> Undefined array key "REQUEST_MEHTOD"
+#0 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\app\Filters\Cors.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp-8.1.5\\...', 16)
+#1 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\Filters\Filters.php(173): App\Filters\Cors->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#2 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('/', 'before')
+#3 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp-8.1.5\\...')
+#6 {main}
+CRITICAL - 2022-05-29 20:28:50 --> Undefined array key "REQUEST_MEHTOD"
+#0 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\app\Filters\Cors.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp-8.1.5\\...', 16)
+#1 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\Filters\Filters.php(173): App\Filters\Cors->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#2 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('authentication/...', 'before')
+#3 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp-8.1.5\\...')
+#6 {main}
+CRITICAL - 2022-05-29 20:29:17 --> Undefined array key "REQUEST_MEHTOD"
+#0 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\app\Filters\Cors.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp-8.1.5\\...', 16)
+#1 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\Filters\Filters.php(173): App\Filters\Cors->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#2 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('authentication/...', 'before')
+#3 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp-8.1.5\\...')
+#6 {main}
+CRITICAL - 2022-05-29 20:30:11 --> Undefined array key "REQUEST_MEHTOD"
+#0 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\app\Filters\Cors.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp-8.1.5\\...', 16)
+#1 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\Filters\Filters.php(173): App\Filters\Cors->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#2 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('authentication/...', 'before')
+#3 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp-8.1.5\\...')
+#6 {main}
+CRITICAL - 2022-05-29 20:39:33 --> Undefined array key "REQUEST_MEHTOD"
+#0 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\app\Filters\Cors.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp-8.1.5\\...', 16)
+#1 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\Filters\Filters.php(173): App\Filters\Cors->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#2 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('/', 'before')
+#3 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp-8.1.5\\...')
+#6 {main}
+CRITICAL - 2022-05-29 20:46:03 --> Undefined array key "REQUEST_MEHTOD"
+#0 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\app\Filters\Cors.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp-8.1.5\\...', 16)
+#1 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\Filters\Filters.php(173): App\Filters\Cors->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#2 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('/', 'before')
+#3 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp-8.1.5\\...')
+#6 {main}
+CRITICAL - 2022-05-29 20:46:33 --> Undefined array key "REQUEST_MEHTODS"
+#0 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\app\Filters\Cors.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp-8.1.5\\...', 16)
+#1 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\Filters\Filters.php(173): App\Filters\Cors->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#2 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('/', 'before')
+#3 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp-8.1.5\\...')
+#6 {main}
+CRITICAL - 2022-05-29 22:24:05 --> Cors filter must have a matching alias defined.
+#0 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\Filters\Filters.php(340): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('Cors')
+#1 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(384): CodeIgniter\Filters\Filters->enableFilter('Cors', 'before')
+#2 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp-8.1.5\\...')
+#5 {main}
+CRITICAL - 2022-05-29 23:12:41 --> Too few arguments to function App\Controllers\Users::index(), 0 passed in C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Users->index()
+#1 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#2 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp-8.1.5\htdocs\ci4.1.9-testapi-withcomposer\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp-8.1.5\\...')
+#5 {main}

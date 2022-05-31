@@ -34,7 +34,7 @@
         <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
       </form>
       <ul class="navbar-nav mb-2 mb-lg-0">
-        <?php if (isset($messageLogin)) : ?>
+        <?php if (isset($message) && $message == 'Login Success') : ?>
           <li class="nav-item">
             <a class="nav-link" aria-current="page" href="/auth/logout"><img src="<?= base_url('img/logout_wght400.png') ?>" alt="" style="height: 25px; width: auto;">Logout</a>
           </li>

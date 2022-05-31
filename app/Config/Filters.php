@@ -23,7 +23,12 @@ class Filters extends BaseConfig
         'honeypot'          => Honeypot::class,
         'invalidchars'      => InvalidChars::class,
         'secureheaders'     => SecureHeaders::class,
+
+        // AddByJonHeri
         'AuthCheckFilter'   => \App\Filters\AuthCheckFilter::class,
+        'Authorization'   => \App\Filters\Authorization::class,
+        'Cors'              => \App\Filters\Cors::class,
+        // ENd AddByJonHeri
     ];
 
     /**
@@ -37,6 +42,10 @@ class Filters extends BaseConfig
             // 'honeypot',
             // 'csrf',
             // 'invalidchars',
+
+            // AddByJoneri--------
+            'Cors',
+            // ------------------
         ],
         'after' => [
             // 'toolbar',

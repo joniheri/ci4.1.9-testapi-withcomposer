@@ -16,6 +16,7 @@ class Users extends BaseController
 
   public function index()
   {
+
     $data = $this->ModelUsers->getData(); //Get data from ModelUsers
 
     if ($data <= null) { //If data empty 

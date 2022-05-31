@@ -32,28 +32,35 @@ $routes->setAutoRoute(true);
 // We get a performance increase by specifying the default
 // route since we don't have to scan directories.
 
-$routes->get('/', 'Home::index', ['filter' => 'AuthCheckFilter']);
+$routes->get('/', 'Home::index');
 
 //  GroupRoute-Users
-$routes->get('users', 'Users::index');
-$routes->post('users/adddata', 'Users::create');
-$routes->add('users/template', 'Users::template');
+$routes->group('/', function ($routes) {
+    $routes->get('/users', 'Users::index', ['filter' => 'Authorization']);
+    $routes->get('users/index', 'Users::index', ['filter' => 'Authorization']);
+});
 // End GroupRoute-Users
 
 // Route-Auth
-$routes->get('register', 'Auth::register');
-$routes->get('login', 'Auth::login');
-$routes->get('processlogin', 'Auth::processLogin');
-$routes->get('processregister', 'Auth::processRegister');
-$routes->post('logout', 'Auth::processLogout');
+$routes->group('/', function ($routes) {
+    $routes->get('register', 'Auth::register');
+    $routes->get('login', 'Auth::login');
+    $routes->get('processlogin', 'Auth::processLogin');
+    $routes->get('processregister', 'Auth::processRegister');
+    $routes->get('dashboarduser', 'Auth::dashboardUser', ['filter' => 'Authorization']);
+    $routes->post('logout', 'Auth::processLogout');
+
+    $routes->get('auth/register', 'Auth::register');
+    $routes->get('auth/login', 'Auth::login');
+});
 // End Route-Auth
 
 // Route-ApiAuth
-$routes->group('authentication', function ($routes) {
+$routes->group('apiauth', function ($routes) {
     $routes->post('register', 'ApiAuth::register');
     $routes->post('login', 'ApiAuth::login');
     $routes->post('logout', 'ApiAuth::processLogout');
-    $routes->get('checlogin', 'ApiAuth::currentUserLogin');
+    $routes->get('checktoken', 'ApiAuth::currentUserLogin');
 });
 // End Route-APiAuth
 

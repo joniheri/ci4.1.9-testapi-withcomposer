@@ -28,6 +28,7 @@
 - File yang ditambahkan untuk "hash password" ada di directory ./app/Libraries/Hash.php
 - Packeage yang diinstall yaitu JWT dengan mengetikkan di terminal "composer require firebase/php-jwt"
 - File yang ditambahkan untuk "filter" ada di directory ./app/Filters/AuthCheckFilter.php untuk memberi batasan akses di semua url atau API
+- File yang ditambahkan untuk "filter" ada di directory ./app/Filters/Cors.php untuk agar API bisa di akses beda domain
 
 # DOCUMENTASION BY JON HERI
 

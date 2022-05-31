@@ -128,9 +128,6 @@ class ApiAuth extends BaseController
 
       $secretKey = getenv('SECRET_KEY');
 
-      $issuer = 'THE_ISSUER';
-      $audience = 'THE_AUDIENCE';
-
       $payload = [
         'iat' => 1356999524,
         'nbf' => 1357000000,

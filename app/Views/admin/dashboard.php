@@ -1,20 +1,20 @@
 <?php
 echo view('template-bootstrap5/head');
 echo view('template-bootstrap5/navbar');
-$idUser = $dataUser[0]->id;
-$usernameUser = $dataUser[0]->username;
-$fullnameUser = $dataUser[0]->fullname;
 ?>
 
 <div class="container">
   <!-- NotifAddSuccessOrFailed -->
   <?php
-  if (isset($messageLogin)) {
-    echo '<div class="alert alert-success" role="alert">' . $messageLogin . '</div>';
+  if (isset($message)) {
+    echo '<div class="alert alert-success" role="alert">' . $message . '</div>';
   }
   ?>
   <!-- End NotifAddSuccessOrFailed -->
-  <h1>Welcome <?= empty($usernameUser) ? $usernameUser : $fullnameUser ?>, This is Dashboard Page</h1>
+  <textarea name="" id="" rows="5" style="width: 100%;">
+    <? //= $token; 
+    ?>
+  </textarea>
 </div>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>

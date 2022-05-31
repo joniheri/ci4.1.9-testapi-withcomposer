@@ -4,9 +4,12 @@ namespace App\Controllers;
 
 use App\Models\ModelUsers;
 use App\Libraries\Hash;
+use Firebase\JWT\JWT;
 
 class Auth extends BaseController
 {
+
+  protected $session;
 
   function __construct()
   {
@@ -86,8 +89,6 @@ class Auth extends BaseController
     // RegisterSuccess
     $dataSuccess = [
       'messageRegister' => 'Register Success',
-      'usernameSuccess' => '',
-      'passwordSuccess' => '',
     ];
     return view('register', $dataSuccess);
     // End RegisterSuccess
@@ -133,24 +134,48 @@ class Auth extends BaseController
     if (!$getUsername || !password_verify($passwordInput, $getUsername[0]->password)) {
       $dataFailedLogin = [
         'validation' => $this->validator,
-        'messageFailedLogin' => 'Username or password is wrong'
+        'messageFailedLogin' => 'Username or password is wrong',
       ];
       return view('login', $dataFailedLogin);
       exit();
     }
 
     // LoginSuccess
-    $dataSuccessLogin = [
-      'messageLogin' => 'Login Success',
-      'dataUser' => $getUsername,
+    $secretKey = getenv('SECRET_KEY');
+    $payload = [
+      'iat' => 1356999524,
+      'nbf' => 1357000000,
+      'user_id' => $getUsername[0]->id,
+      'username' => $getUsername[0]->username,
+      'fullname' => $getUsername[0]->fullname,
+      'password' => $getUsername[0]->password,
     ];
-    return view('admin/dashboard', $dataSuccessLogin);
+    $token = JWT::encode($payload, $secretKey, 'HS256');
+    $dataSuccessLogin = [
+      'status' => 'Response Success',
+      'message' => 'Login Success',
+      'token' => $token,
+      'dataUser' => $payload,
+    ];
+    echo "  
+      <script>
+        localStorage.setItem('token', '" . $token . "');
+      </script>
+    ";
+    $this->session->set_flashdata('data', 'jkdfkjasdf');
+    redirect('auth/dashboarduser');
+    // return redirect()->to('dashboarduser');
+    // return view('admin/dashboard', $dataSuccessLogin);
     // End LoginSuccess
 
   }
 
   public function dashboardUser()
   {
+    $dataGet = $this->session->flashdata('data');
+    print_r($dataGet);
+    exit();
+
     return view('admin/dashboard');
   }
 
